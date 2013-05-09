@@ -1,0 +1,15 @@
+---
+layout: post
+title: "about me"
+date: 2013-05-09 17:06
+comments: false
+categories: 
+---
+
+
+<p style="text-align: center; white-space: pre; color: #93a1a1;">
+JasonNi, 前端工程師
+現任職於 <a href="http://miiicasa.com/">miiicasa</a>, TW
+熱愛 新技術, 美食  
+<em>Hacking Everything</em>
+</p>

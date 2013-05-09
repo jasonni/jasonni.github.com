@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello World"
+title: "markdown demo"
 date: 2013-05-09 10:31
 comments: true
 categories: markdown
@@ -27,7 +27,7 @@ First post just try how to use markdown language and change the theme.
 3. ordered list
 
 ***
-
+<!-- more -->
 #### Blockquote
 	> # This is a blockquote (h1)
 	>
@@ -67,7 +67,7 @@ Welcome to [miiiCasa].
 ***
 
 #### Demo Img Hyper Link
-	[![Alt text][miiiCasaImg]][miiiCasa]
+	[ ![Alt text][miiiCasaImg] ][miiiCasa]
 	[miiiCasa]: http://miiicasa.com/ "miiiCasa"
 	[miiiCasaImg]: http://a.mimgs.com/index/common/logo_173x44.png "Welcome to miiiCasa"
 [![Alt text][miiiCasaImg]][miiiCasa]

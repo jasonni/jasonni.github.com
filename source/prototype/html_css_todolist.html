@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="../css/normalize.css" rel="stylesheet">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+
+	<style type="text/css">
+		i {
+			float: right;
+		}
+
+		.todo-container {
+			margin-bottom: 3%;
+		}
+	</style>
+	
+	<!--
+	<link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+	-->
+	
+	<title>Todo List</title>
+</head>
+<body>
+	<div id="hd"></div>
+	
+	<div id="bd" class="container">
+
+		<div class="row">
+			
+			<div class="span12">
+
+				<h3>HTML + CSS Todo List Demo</h3>
+
+				<div class="todo-container input-append">
+					<label for="todo"><h4>代辦事項</h4></label>
+					<input type="text" class="span12" id="todo" placeholder="enter something todo" >
+					<button class="btn btn-primary">新增</button>
+				</div>
+
+				<table class="table table-hover table-bordered table-condensed">
+					<thead>
+						<tr>
+							<h4>代辦清單</h4>
+						</tr>	
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<span>delegate and stopPropagation</span>
+								<i class="icon-remove text-right"></i>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>玩命關頭6 訂票</span>
+								<i class="icon-remove text-right"></i>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>bootstrap test</span>
+								<i class="icon-remove text-right"></i>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span>scss test</span>
+								<i class="icon-remove text-right"></i>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+					<!--
+						<ul class="unstyled">
+						<li>
+							<div class="input-append btn-group">
+								<input type="text" class="span6 offset2" disabled value="delegate & stopPropagation">
+								<a href="#" class="btn"><i class="icon-remove"></i></a>
+							</div>
+						</li>
+						<li>
+							<div class="input-append btn-group">
+								<input type="text" class="span6 offset2" disabled value="玩命關頭6 訂票">
+								<a href="#" class="btn"><i class="icon-remove"></i></a>
+							</div>
+						</li>
+						<li>
+							<div class="input-append btn-group">
+								<input type="text" class="span6 offset2" disabled value="bootstrap test">
+								<a href="#" class="btn"><i class="icon-remove"></i></a>
+							</div>
+						</li>
+						<li>
+							<div class="input-append btn-group">
+								<input type="text" class="span6 offset2" disabled value="scss test">
+								<a href="#" class="btn"><i class="icon-remove"></i></a>
+							</div>
+						</li>
+						</ul>
+					-->
+			</div>
+
+		</div>
+
+	</div>
+	
+	<div id="ft"></div>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+
+</html>

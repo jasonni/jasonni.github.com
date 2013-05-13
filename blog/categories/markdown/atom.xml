@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: markdown | F2E Big Bang !!!]]></title>
+  <link href="http://jasonni.github.io/blog/categories/markdown/atom.xml" rel="self"/>
+  <link href="http://jasonni.github.io/"/>
+  <updated>2013-05-14T01:51:27+08:00</updated>
+  <id>http://jasonni.github.io/</id>
+  <author>
+    <name><![CDATA[Jason Ni]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[markdown demo]]></title>
+    <link href="http://jasonni.github.io/blog/2013/05/09/hello-world/"/>
+    <updated>2013-05-09T10:31:00+08:00</updated>
+    <id>http://jasonni.github.io/blog/2013/05/09/hello-world</id>
+    <content type="html"><![CDATA[<p>First post just try how to use markdown language and change the theme.</p>
+
+<h3>Markdown Test:</h3>
+
+<h4>Unordered List</h4>
+
+<pre><code>* unordered
+</code></pre>
+
+<ul>
+<li>unordered</li>
+<li>unordered</li>
+<li>unordered</li>
+</ul>
+
+
+<h3>Split</h3>
+
+<pre><code>*** is split
+</code></pre>
+
+<hr />
+
+<h4>Ordered List</h4>
+
+<pre><code>1. ordered list
+</code></pre>
+
+<ol>
+<li>ordered list</li>
+<li>ordered list</li>
+<li>ordered list</li>
+</ol>
+
+
+<hr />
+
+<!-- more -->
+
+
+<h4>Blockquote</h4>
+
+<pre><code>&gt; # This is a blockquote (h1)
+&gt;
+&gt;&gt; This is a blockquote
+&gt;
+&gt; Back to the first level
+</code></pre>
+
+<blockquote><h1>This is a blockquote (h1)</h1>
+
+<blockquote><p>This is a sub blockquote</p></blockquote>
+
+<p>Back to the first level</p></blockquote>
+
+<hr />
+
+<h4>Hyper Link</h4>
+
+<pre><code>Welcome to [miiiCasa].
+[miiiCasa]: http://miiicasa.com/ "miiiCasa"
+</code></pre>
+
+<p>Welcome to <a href="http://miiicasa.com/" title="miiiCasa">miiiCasa</a>.</p>
+
+<hr />
+
+<h4>Emphasis</h4>
+
+<pre><code>*em*
+**strong**
+</code></pre>
+
+<p><em>em</em>
+<strong>strong</strong></p>
+
+<hr />
+
+<h3>Image</h3>
+
+<pre><code>![Alt text][miiiCasaImg]
+[miiiCasaImg]: http://a.mimgs.com/index/common/logo_173x44.png "Welcome to miiiCasa"
+</code></pre>
+
+<p><img src="http://a.mimgs.com/index/common/logo_173x44.png" title="Welcome to miiiCasa" alt="Alt text" /></p>
+
+<hr />
+
+<h4>Demo Img Hyper Link</h4>
+
+<pre><code>[ ![Alt text][miiiCasaImg] ][miiiCasa]
+[miiiCasa]: http://miiicasa.com/ "miiiCasa"
+[miiiCasaImg]: http://a.mimgs.com/index/common/logo_173x44.png "Welcome to miiiCasa"
+</code></pre>
+
+<p><a href="http://miiicasa.com/" title="miiiCasa"><img src="http://a.mimgs.com/index/common/logo_173x44.png" title="Welcome to miiiCasa" alt="Alt text" /></a></p>
+
+<hr />
+
+<h4>Reference:</h4>
+
+<p><a href="http://daringfireball.net/projects/markdown/" title="By JOHN GRUBER">markdown document</a><br/>
+<a href="http://markdown.tw/" title="markdown.tw">markdown.tw</a><br/>
+<a href="http://learn.cute.edu.tw/modl/help.php?file=advanced_markdown.html" title="proMarkdown">markdown 的進階用法</a></p>
+]]></content>
+  </entry>
+  
+</feed>

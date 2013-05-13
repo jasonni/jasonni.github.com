@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: HTML, | F2E Big Bang !!!]]></title>
+  <link href="http://jasonni.github.io/blog/categories/html/atom.xml" rel="self"/>
+  <link href="http://jasonni.github.io/"/>
+  <updated>2013-05-14T01:51:27+08:00</updated>
+  <id>http://jasonni.github.io/</id>
+  <author>
+    <name><![CDATA[Jason Ni]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[HTML &amp; CSS Todo List]]></title>
+    <link href="http://jasonni.github.io/blog/2013/05/11/html-and-css-todo-list/"/>
+    <updated>2013-05-11T14:18:00+08:00</updated>
+    <id>http://jasonni.github.io/blog/2013/05/11/html-and-css-todo-list</id>
+    <content type="html"><![CDATA[<p>將<a href="http://miiicasa.com/" title="miiiCasa">miiiCasa</a>目前學到的新手訓練<br/>
+實作了一張 <a href="/prototype/html_css_todolist.html/" title="Demo">HTML CSS Todo List</a> 靜態網頁</p>
+
+<p>之所以想做 Todo List 的原因<br/>
+是因為網路上操作其實大多脫離不了<em>新刪查改</em></p>
+
+<p>所以假如在學習一個新的Framework時<br/>
+可以搞懂<strong>新刪查改</strong>的使用方式<br/>
+大概也掌握了6, 7成</p>
+
+<p>因此做了一個 Todo List<br/>
+希望每學到一個新的東西時<br/>
+就用 Todo List 實作一下 XD</p>
+
+<hr />
+
+<h4><a href="http://www.kvzhuang.net/" title="小莊">小莊大師</a>魔鬼細節的指導</h4>
+
+<h4><em>input: placeholder</em> 以及 <em>label: for</em> 的優雅之處</h4>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;div&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;todo&quot;</span><span class="nt">&gt;</span>代辦事項<span class="nt">&lt;/label&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">id=</span><span class="s">&quot;todo&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;enter something todo&quot;</span> <span class="nt">&gt;</span>
+</span><span class='line'><span class="nt">&lt;/div&gt;</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;p&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<!-- more -->
+
+
+<p><em><a href="http://www.w3schools.com/tags/att_input_placeholder.asp" title="w3c input">input: placeholder</a></em> 的優雅之處在於<br/>
+* 描述會直接秀在text裡面<br/>
+* 點進去輸入時會自己刪除<br/>
+* 不輸入則又會出現<br/>
+* 新瀏覽器皆支援, IE9還是只能自己刻(囧)</p>
+
+<p><em><a href="http://www.w3schools.com/tags/att_label_for.asp" title="w3c label">label: for</a></em> 的優雅之處在於<br/>
+* 當 for 的 id 等於 input 的 id 時, 點 label 會自動 focus 到 input<br/>
+* 全瀏覽器支援, 太讚了</p>
+
+<p>Demo: <a href="/prototype/html_css_todolist.html/" title="Demo">HTML CSS Todo List</a></p>
+]]></content>
+  </entry>
+  
+</feed>

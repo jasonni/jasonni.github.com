@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[F2E Big Bang !!!]]></title>
+  <link href="http://jasonni.github.io/atom.xml" rel="self"/>
+  <link href="http://jasonni.github.io/"/>
+  <updated>2013-05-14T01:51:27+08:00</updated>
+  <id>http://jasonni.github.io/</id>
+  <author>
+    <name><![CDATA[Jason Ni]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[HTML &amp; CSS Todo List]]></title>
+    <link href="http://jasonni.github.io/blog/2013/05/11/html-and-css-todo-list/"/>
+    <updated>2013-05-11T14:18:00+08:00</updated>
+    <id>http://jasonni.github.io/blog/2013/05/11/html-and-css-todo-list</id>
+    <content type="html"><![CDATA[<p>將<a href="http://miiicasa.com/" title="miiiCasa">miiiCasa</a>目前學到的新手訓練<br/>
+實作了一張 <a href="http://jasonni.github.io/prototype/html_css_todolist.html/" title="Demo">HTML CSS Todo List</a> 靜態網頁</p>
+
+<p>之所以想做 Todo List 的原因<br/>
+是因為網路上操作其實大多脫離不了<em>新刪查改</em></p>
+
+<p>所以假如在學習一個新的Framework時<br/>
+可以搞懂<strong>新刪查改</strong>的使用方式<br/>
+大概也掌握了6, 7成</p>
+
+<p>因此做了一個 Todo List<br/>
+希望每學到一個新的東西時<br/>
+就用 Todo List 實作一下 XD</p>
+
+<hr />
+
+<h4><a href="http://www.kvzhuang.net/" title="小莊">小莊大師</a>魔鬼細節的指導</h4>
+
+<h4><em>input: placeholder</em> 以及 <em>label: for</em> 的優雅之處</h4>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;div&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;todo&quot;</span><span class="nt">&gt;</span>代辦事項<span class="nt">&lt;/label&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">id=</span><span class="s">&quot;todo&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;enter something todo&quot;</span> <span class="nt">&gt;</span>
+</span><span class='line'><span class="nt">&lt;/div&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<!-- more -->
+
+
+<p><em><a href="http://www.w3schools.com/tags/att_input_placeholder.asp" title="w3c input">input: placeholder</a></em> 的優雅之處在於<br/>
+* 描述會直接秀在text裡面<br/>
+* 點進去輸入時會自己刪除<br/>
+* 不輸入則又會出現<br/>
+* 新瀏覽器皆支援, IE9還是只能自己刻(囧)</p>
+
+<p><em><a href="http://www.w3schools.com/tags/att_label_for.asp" title="w3c label">label: for</a></em> 的優雅之處在於<br/>
+* 當 for 的 id 等於 input 的 id 時, 點 label 會自動 focus 到 input<br/>
+* 全瀏覽器支援, 太讚了</p>
+
+<p>Demo: <a href="http://jasonni.github.io/prototype/html_css_todolist.html/" title="Demo">HTML CSS Todo List</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[about me]]></title>
+    <link href="http://jasonni.github.io/blog/2013/05/09/about-me/"/>
+    <updated>2013-05-09T17:06:00+08:00</updated>
+    <id>http://jasonni.github.io/blog/2013/05/09/about-me</id>
+    <content type="html"><![CDATA[<p style="text-align: center; white-space: pre; color: #93a1a1;">
+JasonNi, 前端工程師
+現任職於 <a href="http://miiicasa.com/">miiicasa</a>, TW
+熱愛 新技術, 美食  
+<em>Hacking Everything</em>
+</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[markdown demo]]></title>
+    <link href="http://jasonni.github.io/blog/2013/05/09/hello-world/"/>
+    <updated>2013-05-09T10:31:00+08:00</updated>
+    <id>http://jasonni.github.io/blog/2013/05/09/hello-world</id>
+    <content type="html"><![CDATA[<p>First post just try how to use markdown language and change the theme.</p>
+
+<h3>Markdown Test:</h3>
+
+<h4>Unordered List</h4>
+
+<pre><code>* unordered
+</code></pre>
+
+<ul>
+<li>unordered</li>
+<li>unordered</li>
+<li>unordered</li>
+</ul>
+
+
+<h3>Split</h3>
+
+<pre><code>*** is split
+</code></pre>
+
+<hr />
+
+<h4>Ordered List</h4>
+
+<pre><code>1. ordered list
+</code></pre>
+
+<ol>
+<li>ordered list</li>
+<li>ordered list</li>
+<li>ordered list</li>
+</ol>
+
+
+<hr />
+
+<!-- more -->
+
+
+<h4>Blockquote</h4>
+
+<pre><code>&gt; # This is a blockquote (h1)
+&gt;
+&gt;&gt; This is a blockquote
+&gt;
+&gt; Back to the first level
+</code></pre>
+
+<blockquote><h1>This is a blockquote (h1)</h1>
+
+<blockquote><p>This is a sub blockquote</p></blockquote>
+
+<p>Back to the first level</p></blockquote>
+
+<hr />
+
+<h4>Hyper Link</h4>
+
+<pre><code>Welcome to [miiiCasa].
+[miiiCasa]: http://miiicasa.com/ "miiiCasa"
+</code></pre>
+
+<p>Welcome to <a href="http://miiicasa.com/" title="miiiCasa">miiiCasa</a>.</p>
+
+<hr />
+
+<h4>Emphasis</h4>
+
+<pre><code>*em*
+**strong**
+</code></pre>
+
+<p><em>em</em>
+<strong>strong</strong></p>
+
+<hr />
+
+<h3>Image</h3>
+
+<pre><code>![Alt text][miiiCasaImg]
+[miiiCasaImg]: http://a.mimgs.com/index/common/logo_173x44.png "Welcome to miiiCasa"
+</code></pre>
+
+<p><img src="http://a.mimgs.com/index/common/logo_173x44.png" title="Welcome to miiiCasa" alt="Alt text" /></p>
+
+<hr />
+
+<h4>Demo Img Hyper Link</h4>
+
+<pre><code>[ ![Alt text][miiiCasaImg] ][miiiCasa]
+[miiiCasa]: http://miiicasa.com/ "miiiCasa"
+[miiiCasaImg]: http://a.mimgs.com/index/common/logo_173x44.png "Welcome to miiiCasa"
+</code></pre>
+
+<p><a href="http://miiicasa.com/" title="miiiCasa"><img src="http://a.mimgs.com/index/common/logo_173x44.png" title="Welcome to miiiCasa" alt="Alt text" /></a></p>
+
+<hr />
+
+<h4>Reference:</h4>
+
+<p><a href="http://daringfireball.net/projects/markdown/" title="By JOHN GRUBER">markdown document</a><br/>
+<a href="http://markdown.tw/" title="markdown.tw">markdown.tw</a><br/>
+<a href="http://learn.cute.edu.tw/modl/help.php?file=advanced_markdown.html" title="proMarkdown">markdown 的進階用法</a></p>
+]]></content>
+  </entry>
+  
+</feed>

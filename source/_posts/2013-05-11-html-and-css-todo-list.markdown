@@ -52,5 +52,5 @@ Demo: [HTML CSS Todo List]
 [label: for]: http://www.w3schools.com/tags/att_label_for.asp "w3c label"
 [小莊大師]: http://www.kvzhuang.net/ "小莊"
 [miiiCasa]: http://miiicasa.com/ "miiiCasa"
-[HTML CSS Todo List]: /prototype/html_css_todolist.html/ "Demo"
+[HTML CSS Todo List]: /prototype/html_css_todolist.html "Demo"
 

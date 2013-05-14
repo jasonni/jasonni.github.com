@@ -4,7 +4,7 @@
   <title><![CDATA[Category: CSS | F2E Big Bang !!!]]></title>
   <link href="http://jasonni.github.io/blog/categories/css/atom.xml" rel="self"/>
   <link href="http://jasonni.github.io/"/>
-  <updated>2013-05-14T09:46:23+08:00</updated>
+  <updated>2013-05-14T14:30:23+08:00</updated>
   <id>http://jasonni.github.io/</id>
   <author>
     <name><![CDATA[Jason Ni]]></name>
@@ -19,7 +19,7 @@
     <updated>2013-05-11T14:18:00+08:00</updated>
     <id>http://jasonni.github.io/blog/2013/05/11/html-and-css-todo-list</id>
     <content type="html"><![CDATA[<p>將<a href="http://miiicasa.com/" title="miiiCasa">miiiCasa</a>目前學到的新手訓練<br/>
-實作了一張 <a href="/prototype/html_css_todolist.html/" title="Demo">HTML CSS Todo List</a> 靜態網頁</p>
+實作了一張 <a href="/prototype/html_css_todolist.html" title="Demo">HTML CSS Todo List</a> 靜態網頁</p>
 
 <p>之所以想做 Todo List 的原因<br/>
 是因為網路上操作其實大多脫離不了<em>新刪查改</em></p>
@@ -71,7 +71,7 @@
 * 當 for 的 id 等於 input 的 id 時, 點 label 會自動 focus 到 input<br/>
 * 全瀏覽器支援, 太讚了</p>
 
-<p>Demo: <a href="/prototype/html_css_todolist.html/" title="Demo">HTML CSS Todo List</a></p>
+<p>Demo: <a href="/prototype/html_css_todolist.html" title="Demo">HTML CSS Todo List</a></p>
 ]]></content>
   </entry>
   

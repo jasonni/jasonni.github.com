@@ -89,7 +89,7 @@
 
 
   
-    <span class="byline author vcard">by <span class="fn">Jason Ni</span></span>
+    <span class="byline author vcard">by <a href="https://plus.google.com/johnnyni1231?rel=author"><span class="fn">Jason Ni</span></a></span>
   
 
  - 
@@ -132,7 +132,7 @@ JasonNi, 前端工程師
 
 
   
-    <span class="byline author vcard">by <span class="fn">Jason Ni</span></span>
+    <span class="byline author vcard">by <a href="https://plus.google.com/johnnyni1231?rel=author"><span class="fn">Jason Ni</span></a></span>
   
 
 
@@ -182,9 +182,47 @@ JasonNi, 前端工程師
   <div id="footer-widgets">
   <div class="container">
     <div class="row">
+
+  <div class="span3">
+    
+
+  <h2>my delicious</h2>
+  <div id="delicious"></div>
+
+  <script type="text/javascript">
+  	function renderDeliciousLinks(items) {
+	  var output = "<ul>";
+	  for (var i=0,l=items.length; i<l; i++) {
+	    output += '<li><a href="' + items[i].u + '" title="Tags: ' + (items[i].t == "" ? "" : items[i].t.join(', ')) + '">' + items[i].n + '</a></li>';
+	  }
+	  output += "</ul>";
+
+	  document.getElementById('delicious').innerHTML = output;
+	  //$('#delicious').html(output);
+	}
+  </script>
+  
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/json/jasonni?count=100&amp;sort=date&amp;callback=renderDeliciousLinks"></script>
+
+  <p><a href="http://delicious.com/jasonni">My Delicious Bookmarks &raquo;</a></p>
+
+
+  </div>
+
+<!--
+  <div class="span3">
+    
+
+  </div>
+-->
+
   <div class="span3">
     <h2>recent posts</h2>
     <ul class="recent_posts">
+      
+        <li>
+          <a href="/blog/2013/05/26/dive-into-label-tag/">div into label tag</a>
+        </li>
       
         <li>
           <a href="/blog/2013/05/11/html-and-css-todo-list/">HTML &amp; CSS Todo List</a>
@@ -201,10 +239,7 @@ JasonNi, 前端工程師
     </ul>
     <h2><a href="/blog/archives">archives</a></h2>
   </div>
-  <div class="span3">
-    
-
-  </div>
+  
   <div class="span4">
     
 <h2>twitter</h2>
@@ -215,6 +250,7 @@ JasonNi, 前端工程師
 
 
   </div>
+  
   <div class="span2">
     <h2>found</h2>
 
@@ -229,6 +265,8 @@ JasonNi, 前端工程師
 <a href="http://twitter.com/jasonni1231" rel="tooltip" title="Twitter"><img class="social_icon" title="Twitter" alt="Twitter icon" src="/images/glyphicons_391_twitter_t.png"></a>
 
 
+
+<a href="https://plus.google.com/johnnyni1231?rel=author" rel="tooltip" title="Google Plus"><img class="social_icon" title="Google Plus" alt="Google Plus icon" src="/images/glyphicons_386_google_plus.png"></a>
 
 
 

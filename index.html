@@ -67,7 +67,7 @@
   <div class="span4">
     
 <h2>my projects</h2>
-<dl id="gh_repos" class="dl-horizontal" data-github-user="jasonni" data-github-repo-count="0" data-github-skip-forks="true">
+<dl id="gh_repos" class="dl-horizontal" data-github-user="jasonni" data-github-repo-count="3" data-github-skip-forks="true">
   <dd class="loading">Status updating&#8230;</dd>
 </dl>
 <script src="/javascripts/github.js" type="text/javascript"> </script>
@@ -75,32 +75,9 @@
 
 
   </div>
-  <div class="span4">
-    
 
-  <h2>my delicious</h2>
-  <div id="delicious"></div>
-
-  <script type="text/javascript">
-  	function renderDeliciousLinks(items) {
-	  var output = "<ul>";
-	  for (var i=0,l=items.length; i<l; i++) {
-	    output += '<li><a href="' + items[i].u + '" title="Tags: ' + (items[i].t == "" ? "" : items[i].t.join(', ')) + '">' + items[i].n + '</a></li>';
-	  }
-	  output += "</ul>";
-
-	  document.getElementById('delicious').innerHTML = output;
-	  //$('#delicious').html(output);
-	}
-  </script>
   
-  <script type="text/javascript" src="http://feeds.delicious.com/v2/json/jasonni?count=3&amp;sort=date&amp;callback=renderDeliciousLinks"></script>
-
-  <p><a href="http://delicious.com/jasonni">My Delicious Bookmarks &raquo;</a></p>
-
-
-  </div>
-  <div class="span2">
+  <div class="span2 offset4">
     <h2>found</h2>
 
 <a href="https://github.com/jasonni/" rel="tooltip" title="Github"><img class="social_icon" title="Github" alt="github icon" src="/images/glyphicons_381_github.png"></a>
@@ -114,6 +91,8 @@
 <a href="http://twitter.com/jasonni1231" rel="tooltip" title="Twitter"><img class="social_icon" title="Twitter" alt="Twitter icon" src="/images/glyphicons_391_twitter_t.png"></a>
 
 
+
+<a href="https://plus.google.com/johnnyni1231?rel=author" rel="tooltip" title="Google Plus"><img class="social_icon" title="Google Plus" alt="Google Plus icon" src="/images/glyphicons_386_google_plus.png"></a>
 
 
 
@@ -135,6 +114,81 @@
 
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2013/05/26/dive-into-label-tag/">Div Into Label Tag</a></h1>
+    
+    
+      <p class="meta">
+        
+  
+
+
+  
+    <span class="byline author vcard">by <a href="https://plus.google.com/johnnyni1231?rel=author"><span class="fn">Jason Ni</span></a></span>
+  
+
+ - 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-26T19:48:00+08:00" pubdate data-updated="true">May 26<span>th</span>, 2013</time> - 
+        
+
+posted in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/html/'>HTML</a>
+  
+</span>
+
+
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>之前看到 <strong>label</strong> 時<br/>
+被它的 <strong>for</strong> 屬性驚到原來可以<a href="blog/2013/05/11/html-and-css-todo-list/">這樣用</a>  <br/>
+直到和 <a href="http://josephj.com/" title="阿嗚">Joseph大神</a> pair programming  <br/>
+才發現到它真正的迷人之處<br/>
+也解決了許久許久之前常聽到有使用者反應<br/>
+<strong>為什麼你們系統的 radio 和 checkbox 這麼小</strong><br/>
+我都點不到 XD<br/>
+那時得到的解答是：本來預設就是這樣！！<br/>
+不過<br/>
+今天終於得到真正的答案<br/>
+就是搭配 <strong>label</strong> 這屬性</p>
+
+<p>Demo 開始</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/05/26/dive-into-label-tag/">Read on &rarr;</a>
+    </footer>
+  
+
+
+</div>
+
+      </article>
+    
+    
+      <article class="span4">
+        <div class="article-format">
+
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2013/05/11/html-and-css-todo-list/">HTML &amp; CSS Todo List</a></h1>
     
     
@@ -144,7 +198,7 @@
 
 
   
-    <span class="byline author vcard">by <span class="fn">Jason Ni</span></span>
+    <span class="byline author vcard">by <a href="https://plus.google.com/johnnyni1231?rel=author"><span class="fn">Jason Ni</span></a></span>
   
 
  - 
@@ -238,7 +292,7 @@ posted in
 
 
   
-    <span class="byline author vcard">by <span class="fn">Jason Ni</span></span>
+    <span class="byline author vcard">by <a href="https://plus.google.com/johnnyni1231?rel=author"><span class="fn">Jason Ni</span></a></span>
   
 
  - 
@@ -295,7 +349,7 @@ JasonNi, 前端工程師
 
 
   
-    <span class="byline author vcard">by <span class="fn">Jason Ni</span></span>
+    <span class="byline author vcard">by <a href="https://plus.google.com/johnnyni1231?rel=author"><span class="fn">Jason Ni</span></a></span>
   
 
  - 
@@ -392,9 +446,47 @@ posted in
   <div id="footer-widgets">
   <div class="container">
     <div class="row">
+
+  <div class="span3">
+    
+
+  <h2>my delicious</h2>
+  <div id="delicious"></div>
+
+  <script type="text/javascript">
+  	function renderDeliciousLinks(items) {
+	  var output = "<ul>";
+	  for (var i=0,l=items.length; i<l; i++) {
+	    output += '<li><a href="' + items[i].u + '" title="Tags: ' + (items[i].t == "" ? "" : items[i].t.join(', ')) + '">' + items[i].n + '</a></li>';
+	  }
+	  output += "</ul>";
+
+	  document.getElementById('delicious').innerHTML = output;
+	  //$('#delicious').html(output);
+	}
+  </script>
+  
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/json/jasonni?count=100&amp;sort=date&amp;callback=renderDeliciousLinks"></script>
+
+  <p><a href="http://delicious.com/jasonni">My Delicious Bookmarks &raquo;</a></p>
+
+
+  </div>
+
+<!--
+  <div class="span3">
+    
+
+  </div>
+-->
+
   <div class="span3">
     <h2>recent posts</h2>
     <ul class="recent_posts">
+      
+        <li>
+          <a href="/blog/2013/05/26/dive-into-label-tag/">div into label tag</a>
+        </li>
       
         <li>
           <a href="/blog/2013/05/11/html-and-css-todo-list/">HTML &amp; CSS Todo List</a>
@@ -411,10 +503,7 @@ posted in
     </ul>
     <h2><a href="/blog/archives">archives</a></h2>
   </div>
-  <div class="span3">
-    
-
-  </div>
+  
   <div class="span4">
     
 <h2>twitter</h2>
@@ -425,6 +514,7 @@ posted in
 
 
   </div>
+  
   <div class="span2">
     <h2>found</h2>
 
@@ -439,6 +529,8 @@ posted in
 <a href="http://twitter.com/jasonni1231" rel="tooltip" title="Twitter"><img class="social_icon" title="Twitter" alt="Twitter icon" src="/images/glyphicons_391_twitter_t.png"></a>
 
 
+
+<a href="https://plus.google.com/johnnyni1231?rel=author" rel="tooltip" title="Google Plus"><img class="social_icon" title="Google Plus" alt="Google Plus icon" src="/images/glyphicons_386_google_plus.png"></a>
 
 
 

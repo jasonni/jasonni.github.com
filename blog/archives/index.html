@@ -13,10 +13,11 @@
   
     
   
-  <meta name="description" content=" 2013 HTML &amp; CSS Todo List
+  <meta name="description" content="2013 Div Into Label Tag
+May 26 2013 posted in HTML HTML &amp; CSS Todo List
 May 11 2013 posted in CSS, HTML, About Me
 May 09 2013 Markdown Demo
-May 09 2013 posted in markdown ">
+May &hellip;">
   
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -32,10 +33,11 @@ May 09 2013 posted in markdown ">
   <meta name="og:type" content="website" />
   <meta name="og:site_name" content="F2E Big Bang !!!" />
   <meta name="og:title" content="Blog Archive" />
-  <meta name="og:description" content=" 2013 HTML &amp; CSS Todo List
+  <meta name="og:description" content="2013 Div Into Label Tag
+May 26 2013 posted in HTML HTML &amp; CSS Todo List
 May 11 2013 posted in CSS, HTML, About Me
 May 09 2013 Markdown Demo
-May 09 2013 posted in markdown " />
+May &hellip;" />
   <meta name="og:url" content="http://jasonni.github.io/blog/archives/index.html"/>
   <meta name="url" content="http://jasonni.github.io/blog/archives/index.html">
   
@@ -90,6 +92,20 @@ May 09 2013 posted in markdown " />
 
 <article class="archive-article-format">
   
+<h2><a href="/blog/2013/05/26/dive-into-label-tag/">Div Into Label Tag</a></h2>
+<time datetime="2013-05-26T19:48:00+08:00" pubdate><span class='month'>May</span> <span class='day'>26</span> <span class='year'>2013</span></time>
+
+<footer>
+  <span class="categories meta">posted in <a class='category' href='/blog/categories/html/'>HTML</a></span>
+</footer>
+
+
+</article>
+
+
+
+<article class="archive-article-format">
+  
 <h2><a href="/blog/2013/05/11/html-and-css-todo-list/">HTML &amp; CSS Todo List</a></h2>
 <time datetime="2013-05-11T14:18:00+08:00" pubdate><span class='month'>May</span> <span class='day'>11</span> <span class='year'>2013</span></time>
 
@@ -139,9 +155,47 @@ May 09 2013 posted in markdown " />
 <div id="footer-widgets">
   <div class="container">
     <div class="row">
+
+  <div class="span3">
+    
+
+  <h2>my delicious</h2>
+  <div id="delicious"></div>
+
+  <script type="text/javascript">
+  	function renderDeliciousLinks(items) {
+	  var output = "<ul>";
+	  for (var i=0,l=items.length; i<l; i++) {
+	    output += '<li><a href="' + items[i].u + '" title="Tags: ' + (items[i].t == "" ? "" : items[i].t.join(', ')) + '">' + items[i].n + '</a></li>';
+	  }
+	  output += "</ul>";
+
+	  document.getElementById('delicious').innerHTML = output;
+	  //$('#delicious').html(output);
+	}
+  </script>
+  
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/json/jasonni?count=100&amp;sort=date&amp;callback=renderDeliciousLinks"></script>
+
+  <p><a href="http://delicious.com/jasonni">My Delicious Bookmarks &raquo;</a></p>
+
+
+  </div>
+
+<!--
+  <div class="span3">
+    
+
+  </div>
+-->
+
   <div class="span3">
     <h2>recent posts</h2>
     <ul class="recent_posts">
+      
+        <li>
+          <a href="/blog/2013/05/26/dive-into-label-tag/">div into label tag</a>
+        </li>
       
         <li>
           <a href="/blog/2013/05/11/html-and-css-todo-list/">HTML &amp; CSS Todo List</a>
@@ -158,10 +212,7 @@ May 09 2013 posted in markdown " />
     </ul>
     <h2><a href="/blog/archives">archives</a></h2>
   </div>
-  <div class="span3">
-    
-
-  </div>
+  
   <div class="span4">
     
 <h2>twitter</h2>
@@ -172,6 +223,7 @@ May 09 2013 posted in markdown " />
 
 
   </div>
+  
   <div class="span2">
     <h2>found</h2>
 
@@ -186,6 +238,8 @@ May 09 2013 posted in markdown " />
 <a href="http://twitter.com/jasonni1231" rel="tooltip" title="Twitter"><img class="social_icon" title="Twitter" alt="Twitter icon" src="/images/glyphicons_391_twitter_t.png"></a>
 
 
+
+<a href="https://plus.google.com/johnnyni1231?rel=author" rel="tooltip" title="Google Plus"><img class="social_icon" title="Google Plus" alt="Google Plus icon" src="/images/glyphicons_386_google_plus.png"></a>
 
 
 

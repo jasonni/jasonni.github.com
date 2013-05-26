@@ -4,7 +4,7 @@
   <title><![CDATA[F2E Big Bang !!!]]></title>
   <link href="http://jasonni.github.io/atom.xml" rel="self"/>
   <link href="http://jasonni.github.io/"/>
-  <updated>2013-05-14T14:30:23+08:00</updated>
+  <updated>2013-05-27T00:18:47+08:00</updated>
   <id>http://jasonni.github.io/</id>
   <author>
     <name><![CDATA[Jason Ni]]></name>
@@ -12,6 +12,100 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[div into label tag]]></title>
+    <link href="http://jasonni.github.io/blog/2013/05/26/dive-into-label-tag/"/>
+    <updated>2013-05-26T19:48:00+08:00</updated>
+    <id>http://jasonni.github.io/blog/2013/05/26/dive-into-label-tag</id>
+    <content type="html"><![CDATA[<p>之前看到 <strong>label</strong> 時<br/>
+被它的 <strong>for</strong> 屬性驚到原來可以<a href="blog/2013/05/11/html-and-css-todo-list/">這樣用</a>  <br/>
+直到和 <a href="http://josephj.com/" title="阿嗚">Joseph大神</a> pair programming  <br/>
+才發現到它真正的迷人之處<br/>
+也解決了許久許久之前常聽到有使用者反應<br/>
+<strong>為什麼你們系統的 radio 和 checkbox 這麼小</strong><br/>
+我都點不到 XD<br/>
+那時得到的解答是：本來預設就是這樣！！<br/>
+不過<br/>
+今天終於得到真正的答案<br/>
+就是搭配 <strong>label</strong> 這屬性</p>
+
+<p>Demo 開始</p>
+
+<!-- more -->
+
+
+<p><a class="jsbin-embed" href="http://jsbin.com/ebuwib/1/embed?live">Label Demo</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
+
+<p>HTML Code</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'>
+</span><span class='line'><span class="c">&lt;!-- </span>
+</span><span class='line'><span class="c">    input 須搭配 for 屬性才能做到focus</span>
+</span><span class='line'><span class="c">    radio 和 checkbox 則只需用label包住就可以</span>
+</span><span class='line'><span class="c"> --&gt;</span>
+</span><span class='line'><span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;cname&quot;</span><span class="nt">&gt;</span>Click_me_Name<span class="nt">&lt;/label&gt;</span>
+</span><span class='line'><span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;cname&quot;</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span><span class="nt">/&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;label&gt;</span>Sex<span class="nt">&lt;/label&gt;</span>
+</span><span class='line'><span class="nt">&lt;label&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">&quot;sex&quot;</span>  <span class="na">type=</span><span class="s">&quot;radio&quot;</span><span class="nt">/&gt;</span>Click_me_Male
+</span><span class='line'><span class="nt">&lt;/label&gt;</span>
+</span><span class='line'><span class="nt">&lt;label&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">&quot;sex&quot;</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span><span class="nt">/&gt;</span>Click_me_Female
+</span><span class='line'><span class="nt">&lt;/label&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;label&gt;</span>Hobby<span class="nt">&lt;/label&gt;</span>
+</span><span class='line'><span class="nt">&lt;label&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">/&gt;</span>Click_me_Java
+</span><span class='line'><span class="nt">&lt;/label&gt;</span>
+</span><span class='line'><span class="nt">&lt;label&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">/&gt;</span>Click_me_PHP
+</span><span class='line'><span class="nt">&lt;/label&gt;</span>
+</span><span class='line'><span class="nt">&lt;label&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">/&gt;</span>Click_me_Python
+</span><span class='line'><span class="nt">&lt;/label&gt;</span>
+</span><span class='line'>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>很簡單<br/>
+卻也解決了使用者心中的痛<br/>
+造就更棒的使用者體驗</p>
+
+<p>這就是<strong>前端工程師</strong></p>
+
+<p>歡迎加入 <a href="http://fb.f2d.tw/">Front-End Developers Taiwan</a><br/>
+一起討論前端議題！</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[HTML &amp; CSS Todo List]]></title>

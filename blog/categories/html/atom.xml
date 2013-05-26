@@ -4,7 +4,7 @@
   <title><![CDATA[Category: HTML | F2E Big Bang !!!]]></title>
   <link href="http://jasonni.github.io/blog/categories/html/atom.xml" rel="self"/>
   <link href="http://jasonni.github.io/"/>
-  <updated>2013-05-27T00:18:47+08:00</updated>
+  <updated>2013-05-27T00:29:29+08:00</updated>
   <id>http://jasonni.github.io/</id>
   <author>
     <name><![CDATA[Jason Ni]]></name>
@@ -19,7 +19,7 @@
     <updated>2013-05-26T19:48:00+08:00</updated>
     <id>http://jasonni.github.io/blog/2013/05/26/dive-into-label-tag</id>
     <content type="html"><![CDATA[<p>之前看到 <strong>label</strong> 時<br/>
-被它的 <strong>for</strong> 屬性驚到原來可以<a href="blog/2013/05/11/html-and-css-todo-list/">這樣用</a>  <br/>
+被它的 <strong>for</strong> 屬性驚到原來可以<a href="/blog/2013/05/11/html-and-css-todo-list/">這樣用</a>  <br/>
 直到和 <a href="http://josephj.com/" title="阿嗚">Joseph大神</a> pair programming  <br/>
 才發現到它真正的迷人之處<br/>
 也解決了許久許久之前常聽到有使用者反應<br/>

@@ -63,6 +63,6 @@ HTML Code
 歡迎加入 [Front-End Developers Taiwan]  
 一起討論前端議題！
 
-[這樣用]: blog/2013/05/11/html-and-css-todo-list/
+[這樣用]: /blog/2013/05/11/html-and-css-todo-list/
 [Joseph大神]: http://josephj.com/ "阿嗚"
 [Front-End Developers Taiwan]: http://fb.f2d.tw/ 

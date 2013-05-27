@@ -90,8 +90,8 @@ delicious_user: jasonni
 delicious_count: 100
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: jasonni
+disqus_show_comment_count: 50
 
 # Google Analytics
 google_analytics_tracking_id:

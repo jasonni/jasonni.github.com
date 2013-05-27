@@ -145,7 +145,7 @@ posted in
 <!-- more -->
 
 
-<p><a class="jsbin-embed" href="http://jsbin.com/ebuwib/1/embed?live">Label Demo</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
+<p><a class="jsbin-embed" href="http://jsbin.com/ebuwib/4/embed?live">Label Demo</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
 
 <p>HTML Code</p>
 
@@ -176,10 +176,16 @@ posted in
 <span class='line-number'>25</span>
 <span class='line-number'>26</span>
 <span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
 </pre></td><td class='code'><pre><code class='html'><span class='line'>
 </span><span class='line'><span class="c">&lt;!-- </span>
 </span><span class='line'><span class="c">    input 須搭配 for 屬性才能做到focus</span>
-</span><span class='line'><span class="c">    radio 和 checkbox 則只需用label包住就可以</span>
+</span><span class='line'><span class="c">    radio 和 checkbox 若用label包住就不用加 for</span>
+</span><span class='line'><span class="c">    否則一樣要加</span>
 </span><span class='line'><span class="c"> --&gt;</span>
 </span><span class='line'><span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;cname&quot;</span><span class="nt">&gt;</span>Click_me_Name<span class="nt">&lt;/label&gt;</span>
 </span><span class='line'><span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;cname&quot;</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span><span class="nt">/&gt;</span>
@@ -192,6 +198,7 @@ posted in
 </span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">&quot;sex&quot;</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span><span class="nt">/&gt;</span>Click_me_Female
 </span><span class='line'><span class="nt">&lt;/label&gt;</span>
 </span><span class='line'>
+</span><span class='line'><span class="c">&lt;!-- 不用加for --&gt;</span>
 </span><span class='line'><span class="nt">&lt;label&gt;</span>Hobby<span class="nt">&lt;/label&gt;</span>
 </span><span class='line'><span class="nt">&lt;label&gt;</span>
 </span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">/&gt;</span>Click_me_Java
@@ -199,10 +206,13 @@ posted in
 </span><span class='line'><span class="nt">&lt;label&gt;</span>
 </span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">/&gt;</span>Click_me_PHP
 </span><span class='line'><span class="nt">&lt;/label&gt;</span>
-</span><span class='line'><span class="nt">&lt;label&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">/&gt;</span>Click_me_Python
-</span><span class='line'><span class="nt">&lt;/label&gt;</span>
 </span><span class='line'>
+</span><span class='line'><span class="c">&lt;!-- 需加for --&gt;</span>
+</span><span class='line'><span class="nt">&lt;label&gt;</span>Food<span class="nt">&lt;/label&gt;</span>
+</span><span class='line'><span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;sushi&quot;</span> <span class="na">name=</span><span class="s">&quot;food&quot;</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span><span class="nt">/&gt;</span>
+</span><span class='line'><span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;sushi&quot;</span><span class="nt">&gt;</span>Click_me_Sushi<span class="nt">&lt;/label&gt;</span>
+</span><span class='line'><span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;noodle&quot;</span> <span class="na">name=</span><span class="s">&quot;food&quot;</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span><span class="nt">/&gt;</span>
+</span><span class='line'><span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;noodle&quot;</span><span class="nt">&gt;</span>Click_me_Noodle<span class="nt">&lt;/label&gt;</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
@@ -272,6 +282,12 @@ posted in
 
 </div>
 
+        
+          <div class="article-format">
+            <h1>Comments</h1>
+            <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+          </div>
         
       </article>
     </div>
@@ -399,6 +415,22 @@ posted in
 <script src="/javascripts/libs/jquery.masonry.min.js" type="text/javascript"></script>
 <script src="/javascripts/custom.js" type="text/javascript"></script>
 
+
+<script type="text/javascript">
+      var disqus_shortname = 'jasonni';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://jasonni.github.io/blog/2013/05/26/dive-into-label-tag/';
+        var disqus_url = 'http://jasonni.github.io/blog/2013/05/26/dive-into-label-tag/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 

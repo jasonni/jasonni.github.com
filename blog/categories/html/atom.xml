@@ -4,7 +4,7 @@
   <title><![CDATA[Category: HTML | F2E Big Bang !!!]]></title>
   <link href="http://jasonni.github.io/blog/categories/html/atom.xml" rel="self"/>
   <link href="http://jasonni.github.io/"/>
-  <updated>2013-05-27T00:29:29+08:00</updated>
+  <updated>2013-05-28T00:09:09+08:00</updated>
   <id>http://jasonni.github.io/</id>
   <author>
     <name><![CDATA[Jason Ni]]></name>
@@ -35,7 +35,7 @@
 <!-- more -->
 
 
-<p><a class="jsbin-embed" href="http://jsbin.com/ebuwib/1/embed?live">Label Demo</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
+<p><a class="jsbin-embed" href="http://jsbin.com/ebuwib/4/embed?live">Label Demo</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
 
 <p>HTML Code
 <div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -84,11 +84,19 @@
 <span class='line-number'>44</span>
 <span class='line-number'>45</span>
 <span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
 </pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;/p&gt;</span>
 </span><span class='line'>
 </span><span class='line'><span class="c">&lt;!-- </span>
 </span><span class='line'><span class="c">    input 須搭配 for 屬性才能做到focus</span>
-</span><span class='line'><span class="c">    radio 和 checkbox 則只需用label包住就可以</span>
+</span><span class='line'><span class="c">    radio 和 checkbox 若用label包住就不用加 for</span>
+</span><span class='line'><span class="c">    否則一樣要加</span>
 </span><span class='line'><span class="c"> --&gt;</span>
 </span><span class='line'>
 </span><span class='line'>
@@ -109,6 +117,9 @@
 </span><span class='line'>
 </span><span class='line'><span class="nt">&lt;p&gt;&lt;/label&gt;&lt;/p&gt;</span>
 </span><span class='line'>
+</span><span class='line'><span class="c">&lt;!-- 不用加for --&gt;</span>
+</span><span class='line'>
+</span><span class='line'>
 </span><span class='line'><span class="nt">&lt;p&gt;&lt;label&gt;</span>Hobby<span class="nt">&lt;/label&gt;</span>
 </span><span class='line'><span class="nt">&lt;label&gt;&lt;/p&gt;</span>
 </span><span class='line'>
@@ -121,13 +132,16 @@
 </span><span class='line'><span class="nt">&lt;pre&gt;&lt;code&gt;</span><span class="ni">&amp;lt;</span>input type=&quot;checkbox&quot;/<span class="ni">&amp;gt;</span>Click_me_PHP
 </span><span class='line'><span class="nt">&lt;/code&gt;&lt;/pre&gt;</span>
 </span><span class='line'>
-</span><span class='line'><span class="nt">&lt;p&gt;&lt;/label&gt;</span>
-</span><span class='line'><span class="nt">&lt;label&gt;&lt;/p&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="nt">&lt;pre&gt;&lt;code&gt;</span><span class="ni">&amp;lt;</span>input type=&quot;checkbox&quot;/<span class="ni">&amp;gt;</span>Click_me_Python
-</span><span class='line'><span class="nt">&lt;/code&gt;&lt;/pre&gt;</span>
-</span><span class='line'>
 </span><span class='line'><span class="nt">&lt;p&gt;&lt;/label&gt;&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="c">&lt;!-- 需加for --&gt;</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;p&gt;&lt;label&gt;</span>Food<span class="nt">&lt;/label&gt;</span>
+</span><span class='line'><span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;sushi&quot;</span> <span class="na">name=</span><span class="s">&quot;food&quot;</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span><span class="nt">/&gt;</span>
+</span><span class='line'><span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;sushi&quot;</span><span class="nt">&gt;</span>Click_me_Sushi<span class="nt">&lt;/label&gt;</span>
+</span><span class='line'><span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;noodle&quot;</span> <span class="na">name=</span><span class="s">&quot;food&quot;</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span><span class="nt">/&gt;</span>
+</span><span class='line'><span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;noodle&quot;</span><span class="nt">&gt;</span>Click_me_Noodle<span class="nt">&lt;/label&gt;&lt;/p&gt;</span>
 </span><span class='line'>
 </span><span class='line'><span class="nt">&lt;p&gt;</span>
 </span></code></pre></td></tr></table></div></figure></notextile></div></p>

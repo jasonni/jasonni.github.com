@@ -22,13 +22,14 @@ Demo 開始
 
 <!-- more -->
 
-<a class="jsbin-embed" href="http://jsbin.com/ebuwib/1/embed?live">Label Demo</a><script src="http://static.jsbin.com/js/embed.js"></script>
+<a class="jsbin-embed" href="http://jsbin.com/ebuwib/4/embed?live">Label Demo</a><script src="http://static.jsbin.com/js/embed.js"></script>
 
 HTML Code
 {% codeblock lang:html %} 
 <!-- 
     input 須搭配 for 屬性才能做到focus
-    radio 和 checkbox 則只需用label包住就可以
+    radio 和 checkbox 若用label包住就不用加 for
+    否則一樣要加
  -->
 <label for="cname">Click_me_Name</label>
 <input id="cname" type="text"/>
@@ -41,6 +42,7 @@ HTML Code
     <input name="sex" type="radio"/>Click_me_Female
 </label>
 
+<!-- 不用加for -->
 <label>Hobby</label>
 <label>
     <input type="checkbox"/>Click_me_Java
@@ -48,10 +50,14 @@ HTML Code
 <label>
     <input type="checkbox"/>Click_me_PHP
 </label>
-<label>
-    <input type="checkbox"/>Click_me_Python
-</label>
-    
+
+<!-- 需加for -->
+<label>Food</label>
+<input id="sushi" name="food" type="radio"/>
+<label for="sushi">Click_me_Sushi</label>
+<input id="noodle" name="food" type="radio"/>
+<label for="noodle">Click_me_Noodle</label>
+
 {% endcodeblock %}
 
 很簡單  

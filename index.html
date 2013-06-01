@@ -64,6 +64,7 @@
 <p><a href="/blog/2013/05/09/about-me">JasonNi, F2E, miiiCasa, TW</a></p>
 
   </div>
+
   <div class="span4">
     
 <h2>my projects</h2>
@@ -75,9 +76,27 @@
 
 
   </div>
-
   
-  <div class="span2 offset4">
+  <div class="span4">
+    <h2>recent posts</h2>
+    <ul class="recent_posts">
+      
+        <li>
+          <a href="/blog/2013/06/01/jquery-validation-with-bootstrap-style/">Jquery Validation With Bootstrap Style</a>
+        </li>
+      
+        <li>
+          <a href="/blog/2013/05/26/dive-into-label-tag/">div into label tag</a>
+        </li>
+      
+        <li>
+          <a href="/blog/2013/05/11/html-and-css-todo-list/">HTML &amp; CSS Todo List</a>
+        </li>
+      
+    </ul>
+  </div>
+  
+  <div class="span2">
     <h2>found</h2>
 
 <a href="https://github.com/jasonni/" rel="tooltip" title="Github"><img class="social_icon" title="Github" alt="github icon" src="/images/glyphicons_381_github.png"></a>
@@ -109,7 +128,84 @@
     
     
     
-      <article class="span4">
+      <article class="span12">
+        <div class="article-format">
+
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/01/jquery-validation-with-bootstrap-style/">Jquery Validation With Bootstrap Style</a></h1>
+    
+    
+      <p class="meta">
+        
+  
+
+
+  
+    <span class="byline author vcard">by <a href="https://plus.google.com/johnnyni1231?rel=author"><span class="fn">Jason Ni</span></a></span>
+  
+
+ - 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-01T13:42:00+08:00" pubdate data-updated="true">Jun 1<span>st</span>, 2013</time> - 
+        
+
+posted in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/css/'>CSS,</a>, <a class='category' href='/blog/categories/html/'>HTML,</a>, <a class='category' href='/blog/categories/jquery/'>JQUERY</a>
+  
+</span>
+
+
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>最近因工作需要開始研究 <a href="http://jqueryvalidation.org/" title="jqueryvalidation">Jquery Validation</a><br/>
+不過因為我們導入 <a href="http://twitter.github.io/bootstrap/" title="bootstrap">Bootstrap</a><br/>
+因此它產生訊息提示的 style 還得覆寫一下<br/>
+才能符合我們的需求<br/>
+看一下 <a href="/prototype/jq_validate.html" title="Demo">Demo</a></p>
+
+<p>在實作上<br/>
+各欄位驗證的屬性設定可以參考<a href="http://jqueryvalidation.org/" title="jqueryvalidation">Jquery Validation</a> Document<br/>
+除了 html class 要符合 <a href="http://twitter.github.io/bootstrap/" title="bootstrap">Bootstrap</a> 規範外<br/>
+其中需要注意的是<br/>
+* 若 form 裡有 radio 或 checkbox 時，一定要去覆寫 errorPlacement，
+否則驗證訊息會出現在錯誤的位置
+* 驗證欄位可以寫在 html class 或 js，若寫在 js 不能寫 form 裡沒有的欄位，否則 bug 會找不到噢 XD</p>
+
+<p>再來就是要去覆寫 js 的 function 來達到我們的需求</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/06/01/jquery-validation-with-bootstrap-style/">Read on &rarr;</a>
+    </footer>
+  
+
+
+</div>
+
+      </article>
+    
+    
+      <article class="span12">
         <div class="article-format">
 
   <header>
@@ -184,7 +280,7 @@ posted in
       </article>
     
     
-      <article class="span4">
+      <article class="span12">
         <div class="article-format">
 
   <header>
@@ -278,7 +374,7 @@ posted in
       </article>
     
     
-      <article class="span4">
+      <article class="span12">
         <div class="article-format">
 
   <header>
@@ -335,7 +431,7 @@ JasonNi, 前端工程師
       </article>
     
     
-      <article class="span4">
+      <article class="span12">
         <div class="article-format">
 
   <header>
@@ -483,6 +579,10 @@ posted in
   <div class="span3">
     <h2>recent posts</h2>
     <ul class="recent_posts">
+      
+        <li>
+          <a href="/blog/2013/06/01/jquery-validation-with-bootstrap-style/">Jquery Validation With Bootstrap Style</a>
+        </li>
       
         <li>
           <a href="/blog/2013/05/26/dive-into-label-tag/">div into label tag</a>

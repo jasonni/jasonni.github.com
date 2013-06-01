@@ -4,7 +4,7 @@
   <title><![CDATA[F2E Big Bang !!!]]></title>
   <link href="http://jasonni.github.io/atom.xml" rel="self"/>
   <link href="http://jasonni.github.io/"/>
-  <updated>2013-05-28T00:09:09+08:00</updated>
+  <updated>2013-06-01T17:26:07+08:00</updated>
   <id>http://jasonni.github.io/</id>
   <author>
     <name><![CDATA[Jason Ni]]></name>
@@ -12,6 +12,97 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Jquery Validation With Bootstrap Style]]></title>
+    <link href="http://jasonni.github.io/blog/2013/06/01/jquery-validation-with-bootstrap-style/"/>
+    <updated>2013-06-01T13:42:00+08:00</updated>
+    <id>http://jasonni.github.io/blog/2013/06/01/jquery-validation-with-bootstrap-style</id>
+    <content type="html"><![CDATA[<p>最近因工作需要開始研究 <a href="http://jqueryvalidation.org/" title="jqueryvalidation">Jquery Validation</a><br/>
+不過因為我們導入 <a href="http://twitter.github.io/bootstrap/" title="bootstrap">Bootstrap</a><br/>
+因此它產生訊息提示的 style 還得覆寫一下<br/>
+才能符合我們的需求<br/>
+看一下 <a href="http://jasonni.github.io/prototype/jq_validate.html" title="Demo">Demo</a></p>
+
+<p>在實作上<br/>
+各欄位驗證的屬性設定可以參考<a href="http://jqueryvalidation.org/" title="jqueryvalidation">Jquery Validation</a> Document<br/>
+除了 html class 要符合 <a href="http://twitter.github.io/bootstrap/" title="bootstrap">Bootstrap</a> 規範外<br/>
+其中需要注意的是<br/>
+* 若 form 裡有 radio 或 checkbox 時，一定要去覆寫 errorPlacement，
+否則驗證訊息會出現在錯誤的位置
+* 驗證欄位可以寫在 html class 或 js，若寫在 js 不能寫 form 裡沒有的欄位，否則 bug 會找不到噢 XD</p>
+
+<p>再來就是要去覆寫 js 的 function 來達到我們的需求</p>
+
+<!-- more -->
+
+
+
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="c1">// default is label</span>
+</span><span class='line'><span class="nx">errorElement</span><span class="o">:</span> <span class="s1">&#39;span&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">// 將 message class 換成 bootstrap style</span>
+</span><span class='line'><span class="nx">errorClass</span><span class="o">:</span> <span class="s1">&#39;help-inline&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">// 驗證錯誤時要替換的 class</span>
+</span><span class='line'><span class="nx">highlight</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">element</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">$</span><span class="p">(</span><span class="nx">element</span><span class="p">).</span><span class="nx">closest</span><span class="p">(</span><span class="s1">&#39;.control-group&#39;</span><span class="p">).</span><span class="nx">removeClass</span><span class="p">(</span> <span class="s1">&#39;info&#39;</span><span class="p">).</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">&#39;error&#39;</span><span class="p">);</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="c1">// 驗證成功時要替換的 class</span>
+</span><span class='line'><span class="nx">success</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">element</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">$</span><span class="p">(</span><span class="nx">element</span><span class="p">).</span><span class="nx">closest</span><span class="p">(</span><span class="s1">&#39;.control-group&#39;</span><span class="p">).</span><span class="nx">removeClass</span><span class="p">(</span><span class="s1">&#39;error&#39;</span><span class="p">).</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">&#39;info&#39;</span><span class="p">);</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="c1">// 判斷 form 裡是否有 radio or checkbox</span>
+</span><span class='line'><span class="nx">errorPlacement</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">error</span><span class="p">,</span> <span class="nx">element</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">if</span><span class="p">(</span><span class="nx">element</span><span class="p">.</span><span class="nx">is</span><span class="p">(</span><span class="s1">&#39;:checkbox&#39;</span><span class="p">)</span> <span class="o">||</span> <span class="nx">element</span><span class="p">.</span><span class="nx">is</span><span class="p">(</span><span class="s1">&#39;:radio&#39;</span><span class="p">))</span> <span class="p">{</span>
+</span><span class='line'>        <span class="kd">var</span> <span class="nx">controls</span> <span class="o">=</span> <span class="nx">element</span><span class="p">.</span><span class="nx">closest</span><span class="p">(</span><span class="s1">&#39;.controls&#39;</span><span class="p">);</span>
+</span><span class='line'>        <span class="k">if</span><span class="p">(</span><span class="nx">controls</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="s1">&#39;:checkbox,:radio&#39;</span><span class="p">).</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>           <span class="nx">controls</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="nx">error</span><span class="p">);</span>
+</span><span class='line'>        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span><span class='line'>            <span class="nx">error</span><span class="p">.</span><span class="nx">insertAfter</span><span class="p">(</span><span class="nx">element</span><span class="p">.</span><span class="nx">nextAll</span><span class="p">(</span><span class="s1">&#39;.lbl&#39;</span><span class="p">).</span><span class="nx">eq</span><span class="p">(</span><span class="mi">0</span><span class="p">));</span>
+</span><span class='line'>        <span class="p">}</span>
+</span><span class='line'>    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span><span class='line'>        <span class="nx">error</span><span class="p">.</span><span class="nx">insertAfter</span><span class="p">(</span><span class="nx">element</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[div into label tag]]></title>

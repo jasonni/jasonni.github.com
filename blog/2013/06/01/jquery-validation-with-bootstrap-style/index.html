@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>div into label tag - F2E Big Bang !!!</title>
+  <title>Jquery Validation With Bootstrap Style - F2E Big Bang !!!</title>
   <meta name="author" content="Jason Ni">
   <link rel="author" href="humans.txt">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -13,12 +13,13 @@
   
     
   
-  <meta name="description" content="之前看到 label 時
-被它的 for 屬性驚到原來可以這樣用 直到和 Joseph大神 pair programming 才發現到它真正的迷人之處
-也解決了許久許久之前常聽到有使用者反應
-為什麼你們系統的 radio 和 checkbox 這麼小
-我都點不到 XD
-那時得到的解答是： &hellip;">
+  <meta name="description" content="最近因工作需要開始研究 Jquery Validation
+不過因為我們導入 Bootstrap
+因此它產生訊息提示的 style 還得覆寫一下
+才能符合我們的需求
+看一下 Demo 在實作上
+各欄位驗證的屬性設定可以參考Jquery Validation Document
+除了 html &hellip;">
   
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -26,25 +27,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jasonni.github.io/blog/2013/05/26/dive-into-label-tag/">
+  <link rel="canonical" href="http://jasonni.github.io/blog/2013/06/01/jquery-validation-with-bootstrap-style/">
   <link href="/favicon.png" rel="icon">
   <link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="F2E Big Bang !!!" type="application/atom+xml">
   <meta name="og:type" content="website" />
   <meta name="og:site_name" content="F2E Big Bang !!!" />
-  <meta name="og:title" content="div into label tag" />
-  <meta name="og:description" content="之前看到 label 時
-被它的 for 屬性驚到原來可以這樣用 直到和 Joseph大神 pair programming 才發現到它真正的迷人之處
-也解決了許久許久之前常聽到有使用者反應
-為什麼你們系統的 radio 和 checkbox 這麼小
-我都點不到 XD
-那時得到的解答是： &hellip;" />
-  <meta name="og:url" content="http://jasonni.github.io/blog/2013/05/26/dive-into-label-tag/"/>
-  <meta name="url" content="http://jasonni.github.io/blog/2013/05/26/dive-into-label-tag/">
+  <meta name="og:title" content="Jquery Validation With Bootstrap Style" />
+  <meta name="og:description" content="最近因工作需要開始研究 Jquery Validation
+不過因為我們導入 Bootstrap
+因此它產生訊息提示的 style 還得覆寫一下
+才能符合我們的需求
+看一下 Demo 在實作上
+各欄位驗證的屬性設定可以參考Jquery Validation Document
+除了 html &hellip;" />
+  <meta name="og:url" content="http://jasonni.github.io/blog/2013/06/01/jquery-validation-with-bootstrap-style/"/>
+  <meta name="url" content="http://jasonni.github.io/blog/2013/06/01/jquery-validation-with-bootstrap-style/">
   
-  <meta name="subject" content="HTML"/>
-  <meta name="category" content="HTML"/>
+  <meta name="subject" content="CSS,HTML,JQUERY"/>
+  <meta name="category" content="CSS,HTML,JQUERY"/>
   
   <meta name="distribution" content="global">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
@@ -86,7 +88,7 @@
 
   <header>
     
-      <h1 class="entry-title">Div Into Label Tag</h1>
+      <h1 class="entry-title">Jquery Validation With Bootstrap Style</h1>
     
     
       <p class="meta">
@@ -111,13 +113,13 @@
   
 
 
-<time datetime="2013-05-26T19:48:00+08:00" pubdate data-updated="true">May 26<span>th</span>, 2013</time> - 
+<time datetime="2013-06-01T13:42:00+08:00" pubdate data-updated="true">Jun 1<span>st</span>, 2013</time> - 
         
 
 posted in
 <span class="categories">
   
-    <a class='category' href='/blog/categories/html/'>HTML</a>
+    <a class='category' href='/blog/categories/css/'>CSS,</a>, <a class='category' href='/blog/categories/html/'>HTML,</a>, <a class='category' href='/blog/categories/jquery/'>JQUERY</a>
   
 </span>
 
@@ -128,26 +130,26 @@ posted in
   </header>
 
 
-  <div class="entry-content"><p>之前看到 <strong>label</strong> 時<br/>
-被它的 <strong>for</strong> 屬性驚到原來可以<a href="/blog/2013/05/11/html-and-css-todo-list/">這樣用</a>  <br/>
-直到和 <a href="http://josephj.com/" title="阿嗚">Joseph大神</a> pair programming  <br/>
-才發現到它真正的迷人之處<br/>
-也解決了許久許久之前常聽到有使用者反應<br/>
-<strong>為什麼你們系統的 radio 和 checkbox 這麼小</strong><br/>
-我都點不到 XD<br/>
-那時得到的解答是：本來預設就是這樣！！<br/>
-不過<br/>
-今天終於得到真正的答案<br/>
-就是搭配 <strong>label</strong> 這屬性</p>
+  <div class="entry-content"><p>最近因工作需要開始研究 <a href="http://jqueryvalidation.org/" title="jqueryvalidation">Jquery Validation</a><br/>
+不過因為我們導入 <a href="http://twitter.github.io/bootstrap/" title="bootstrap">Bootstrap</a><br/>
+因此它產生訊息提示的 style 還得覆寫一下<br/>
+才能符合我們的需求<br/>
+看一下 <a href="/prototype/jq_validate.html" title="Demo">Demo</a></p>
 
-<p>Demo 開始</p>
+<p>在實作上<br/>
+各欄位驗證的屬性設定可以參考<a href="http://jqueryvalidation.org/" title="jqueryvalidation">Jquery Validation</a> Document<br/>
+除了 html class 要符合 <a href="http://twitter.github.io/bootstrap/" title="bootstrap">Bootstrap</a> 規範外<br/>
+其中需要注意的是<br/>
+* 若 form 裡有 radio 或 checkbox 時，一定要去覆寫 errorPlacement，
+否則驗證訊息會出現在錯誤的位置
+* 驗證欄位可以寫在 html class 或 js，若寫在 js 不能寫 form 裡沒有的欄位，否則 bug 會找不到噢 XD</p>
+
+<p>再來就是要去覆寫 js 的 function 來達到我們的需求</p>
 
 <!-- more -->
 
 
-<p><a class="jsbin-embed" href="http://jsbin.com/ebuwib/4/embed?live">Label Demo</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
 
-<p>HTML Code</p>
 
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -178,52 +180,39 @@ posted in
 <span class='line-number'>27</span>
 <span class='line-number'>28</span>
 <span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-<span class='line-number'>32</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'>
-</span><span class='line'><span class="c">&lt;!-- </span>
-</span><span class='line'><span class="c">    input 須搭配 for 屬性才能做到focus</span>
-</span><span class='line'><span class="c">    radio 和 checkbox 若用label包住就不用加 for</span>
-</span><span class='line'><span class="c">    否則一樣要加</span>
-</span><span class='line'><span class="c"> --&gt;</span>
-</span><span class='line'><span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;cname&quot;</span><span class="nt">&gt;</span>Click_me_Name<span class="nt">&lt;/label&gt;</span>
-</span><span class='line'><span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;cname&quot;</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span><span class="nt">/&gt;</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'>
 </span><span class='line'>
-</span><span class='line'><span class="nt">&lt;label&gt;</span>Sex<span class="nt">&lt;/label&gt;</span>
-</span><span class='line'><span class="nt">&lt;label&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">&quot;sex&quot;</span>  <span class="na">type=</span><span class="s">&quot;radio&quot;</span><span class="nt">/&gt;</span>Click_me_Male
-</span><span class='line'><span class="nt">&lt;/label&gt;</span>
-</span><span class='line'><span class="nt">&lt;label&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">&quot;sex&quot;</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span><span class="nt">/&gt;</span>Click_me_Female
-</span><span class='line'><span class="nt">&lt;/label&gt;</span>
+</span><span class='line'><span class="c1">// default is label</span>
+</span><span class='line'><span class="nx">errorElement</span><span class="o">:</span> <span class="s1">&#39;span&#39;</span>
 </span><span class='line'>
-</span><span class='line'><span class="c">&lt;!-- 不用加for --&gt;</span>
-</span><span class='line'><span class="nt">&lt;label&gt;</span>Hobby<span class="nt">&lt;/label&gt;</span>
-</span><span class='line'><span class="nt">&lt;label&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">/&gt;</span>Click_me_Java
-</span><span class='line'><span class="nt">&lt;/label&gt;</span>
-</span><span class='line'><span class="nt">&lt;label&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">/&gt;</span>Click_me_PHP
-</span><span class='line'><span class="nt">&lt;/label&gt;</span>
+</span><span class='line'><span class="c1">// 將 message class 換成 bootstrap style</span>
+</span><span class='line'><span class="nx">errorClass</span><span class="o">:</span> <span class="s1">&#39;help-inline&#39;</span>
 </span><span class='line'>
-</span><span class='line'><span class="c">&lt;!-- 需加for --&gt;</span>
-</span><span class='line'><span class="nt">&lt;label&gt;</span>Food<span class="nt">&lt;/label&gt;</span>
-</span><span class='line'><span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;sushi&quot;</span> <span class="na">name=</span><span class="s">&quot;food&quot;</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span><span class="nt">/&gt;</span>
-</span><span class='line'><span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;sushi&quot;</span><span class="nt">&gt;</span>Click_me_Sushi<span class="nt">&lt;/label&gt;</span>
-</span><span class='line'><span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;noodle&quot;</span> <span class="na">name=</span><span class="s">&quot;food&quot;</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span><span class="nt">/&gt;</span>
-</span><span class='line'><span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;noodle&quot;</span><span class="nt">&gt;</span>Click_me_Noodle<span class="nt">&lt;/label&gt;</span>
+</span><span class='line'><span class="c1">// 驗證錯誤時要替換的 class</span>
+</span><span class='line'><span class="nx">highlight</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">element</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">$</span><span class="p">(</span><span class="nx">element</span><span class="p">).</span><span class="nx">closest</span><span class="p">(</span><span class="s1">&#39;.control-group&#39;</span><span class="p">).</span><span class="nx">removeClass</span><span class="p">(</span> <span class="s1">&#39;info&#39;</span><span class="p">).</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">&#39;error&#39;</span><span class="p">);</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="c1">// 驗證成功時要替換的 class</span>
+</span><span class='line'><span class="nx">success</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">element</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">$</span><span class="p">(</span><span class="nx">element</span><span class="p">).</span><span class="nx">closest</span><span class="p">(</span><span class="s1">&#39;.control-group&#39;</span><span class="p">).</span><span class="nx">removeClass</span><span class="p">(</span><span class="s1">&#39;error&#39;</span><span class="p">).</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">&#39;info&#39;</span><span class="p">);</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="c1">// 判斷 form 裡是否有 radio or checkbox</span>
+</span><span class='line'><span class="nx">errorPlacement</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">error</span><span class="p">,</span> <span class="nx">element</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">if</span><span class="p">(</span><span class="nx">element</span><span class="p">.</span><span class="nx">is</span><span class="p">(</span><span class="s1">&#39;:checkbox&#39;</span><span class="p">)</span> <span class="o">||</span> <span class="nx">element</span><span class="p">.</span><span class="nx">is</span><span class="p">(</span><span class="s1">&#39;:radio&#39;</span><span class="p">))</span> <span class="p">{</span>
+</span><span class='line'>        <span class="kd">var</span> <span class="nx">controls</span> <span class="o">=</span> <span class="nx">element</span><span class="p">.</span><span class="nx">closest</span><span class="p">(</span><span class="s1">&#39;.controls&#39;</span><span class="p">);</span>
+</span><span class='line'>        <span class="k">if</span><span class="p">(</span><span class="nx">controls</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="s1">&#39;:checkbox,:radio&#39;</span><span class="p">).</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>           <span class="nx">controls</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="nx">error</span><span class="p">);</span>
+</span><span class='line'>        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span><span class='line'>            <span class="nx">error</span><span class="p">.</span><span class="nx">insertAfter</span><span class="p">(</span><span class="nx">element</span><span class="p">.</span><span class="nx">nextAll</span><span class="p">(</span><span class="s1">&#39;.lbl&#39;</span><span class="p">).</span><span class="nx">eq</span><span class="p">(</span><span class="mi">0</span><span class="p">));</span>
+</span><span class='line'>        <span class="p">}</span>
+</span><span class='line'>    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span><span class='line'>        <span class="nx">error</span><span class="p">.</span><span class="nx">insertAfter</span><span class="p">(</span><span class="nx">element</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'><span class="p">}</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>很簡單<br/>
-卻也解決了使用者心中的痛<br/>
-造就更棒的使用者體驗</p>
 
-<p>這就是<strong>前端工程師</strong></p>
-
-<p>歡迎加入 <a href="http://fb.f2d.tw/">Front-End Developers Taiwan</a><br/>
-一起討論前端議題！</p>
 </div>
 
 
@@ -250,13 +239,13 @@ posted in
   
 
 
-<time datetime="2013-05-26T19:48:00+08:00" pubdate data-updated="true">May 26<span>th</span>, 2013</time>
+<time datetime="2013-06-01T13:42:00+08:00" pubdate data-updated="true">Jun 1<span>st</span>, 2013</time>
       
 
 posted in
 <span class="categories">
   
-    <a class='category' href='/blog/categories/html/'>HTML</a>
+    <a class='category' href='/blog/categories/css/'>CSS,</a>, <a class='category' href='/blog/categories/html/'>HTML,</a>, <a class='category' href='/blog/categories/jquery/'>JQUERY</a>
   
 </span>
 
@@ -265,7 +254,7 @@ posted in
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jasonni.github.io/blog/2013/05/26/dive-into-label-tag/" data-via="jasonni1231" data-counturl="http://jasonni.github.io/blog/2013/05/26/dive-into-label-tag/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jasonni.github.io/blog/2013/06/01/jquery-validation-with-bootstrap-style/" data-via="jasonni1231" data-counturl="http://jasonni.github.io/blog/2013/06/01/jquery-validation-with-bootstrap-style/" >Tweet</a>
   
   
   
@@ -275,10 +264,8 @@ posted in
 
     
     
-      <a class="pull-left" href="/blog/2013/05/11/html-and-css-todo-list/" title="Previous Post: HTML &amp; CSS Todo List">&laquo; HTML &amp; CSS Todo List</a>
+      <a class="pull-left" href="/blog/2013/05/26/dive-into-label-tag/" title="Previous Post: div into label tag">&laquo; div into label tag</a>
     
-    
-      <a class="pull-right" href="/blog/2013/06/01/jquery-validation-with-bootstrap-style/" title="Next Post: Jquery Validation With Bootstrap Style">Jquery Validation With Bootstrap Style &raquo;</a>
     
   </footer>
 
@@ -427,8 +414,8 @@ posted in
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://jasonni.github.io/blog/2013/05/26/dive-into-label-tag/';
-        var disqus_url = 'http://jasonni.github.io/blog/2013/05/26/dive-into-label-tag/';
+        var disqus_identifier = 'http://jasonni.github.io/blog/2013/06/01/jquery-validation-with-bootstrap-style/';
+        var disqus_url = 'http://jasonni.github.io/blog/2013/06/01/jquery-validation-with-bootstrap-style/';
         var disqus_script = 'embed.js';
       
     (function () {

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="http://twitter.github.io/bootstrap/assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<!--
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/localization/messages_zh_TW.js"></script>
+-->
+<meta charset=utf-8 />
+<title>Jquery Validate (Use Class) Bin</title>
+</head>
+<body>
+    <form name="commentForm" class="form-horizontal" id="commentForm" method="get">
+        <fieldset>
+        <legend>Please fill the form</legend>
+
+        <div class="control-group">
+            <label class="control-label" for="cname">Name (*)</label>
+            <div class="controls">
+                <input id="cname" name="name" type="text" value="">
+            </div>
+        </div>
+
+        <!-- password begin -->
+        <div class="control-group">
+            <label class="control-label" for="passwd">Passwd (*)</label>
+            <div class="controls">
+                <input id="passwd" name="passwd" type="password"/>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="passwd2">Confirm Passwd (*)</label>
+            <div class="controls">
+                <input id="passwd2" name="passwd2" type="password"/>
+            </div>
+        </div>
+        <!-- password end -->
+
+        <!-- dateISO begin -->
+        <div class="control-group">
+            <label class="control-label" for="birthday">Birthday (*)</label>
+            <div class="controls">
+                <input id="birthday" name="birthday" type="text"/>
+            </div>
+        </div>
+        <!-- dateISO end -->
+
+        <!-- number beegin -->
+        <div class="control-group">
+            <label class="control-label" for="old">Old (*)</label>
+            <div class="controls">
+                <input id="old" name="old" type="text"/>
+            </div>
+        </div>
+        <!-- number end -->
+
+        <!-- radio begin -->
+        <div class="control-group">
+            <label class="control-label">Gender (*)</label>
+            <div class="controls">
+                <label class="radio inline" for="gender_male">
+                    <input type="radio" id="gender_male" value="m" name="gender" /> Male
+                </label>
+                <label class="radio inline" for="gender_female">
+                    <input type="radio" id="gender_female" value="f" name="gender"/> Female
+                </label>
+            </div>
+        </div>
+        <!-- radio end -->
+
+        <!-- email begin -->
+        <div class="control-group">
+            <label class="control-label" for="cemail">E-Mail (*)</label>
+            <div class="controls">
+                <input id="cemail" name="email" type="text"/>
+            </div>
+        </div>
+        <!-- email end -->
+
+        <!-- url begin -->
+        <div class="control-group">
+            <label class="control-label" for="curl">URL (*)</label>
+            <div class="controls">
+                <input id="curl" name="url" type="text"/>
+            </div>
+        </div>
+        <!-- url end -->
+
+        <div class="form-actions">
+            <button class="btn btn-large btn-primary" type="submit">Submit</button>
+        </div>
+
+        </fieldset>
+    </form>
+
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="http://jquery.bassistance.de/validate/jquery.validate.js"></script>
+    <script src="/prototype/js/jq_validate.js"></script>
+    <script src="/prototype/js/bootstrap.min.js"></script>
+
+</body>
+</html>

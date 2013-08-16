@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: requirejs, | F2E Big Bang !!!]]></title>
+  <link href="http://jasonni.github.io/blog/categories/requirejs/atom.xml" rel="self"/>
+  <link href="http://jasonni.github.io/"/>
+  <updated>2013-08-16T13:55:18+08:00</updated>
+  <id>http://jasonni.github.io/</id>
+  <author>
+    <name><![CDATA[Jason Ni]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[RequireJS Study Guideline]]></title>
+    <link href="http://jasonni.github.io/blog/2013/06/02/requirejs-study-guideline/"/>
+    <updated>2013-06-02T00:51:00+08:00</updated>
+    <id>http://jasonni.github.io/blog/2013/06/02/requirejs-study-guideline</id>
+    <content type="html"><![CDATA[<h3>Directory Structure</h3>
+
+<pre><code>www
+|—-index.html
+|—-js
+|   |---main.js
+|
+|--css
+|   |---main.scss
+|
+|--img
+|—–lib
+    |———jquery/jquery-min.js
+    |———requirejs/require.js
+    |———bootstrap/bootstrap.js
+</code></pre>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">requirejs</span><span class="p">.</span><span class="nx">config</span><span class="p">({</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">pre</span><span class="o">&gt;&lt;</span><span class="nx">code</span><span class="o">&gt;</span><span class="nx">baseUrl</span><span class="o">:</span> <span class="nx">lib</span><span class="p">,</span>
+</span><span class='line'><span class="nx">paths</span><span class="o">:</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">jquery</span><span class="o">:</span> <span class="nx">jquery</span><span class="o">/</span><span class="nx">jquery</span><span class="p">,</span>
+</span><span class='line'>    <span class="nx">main</span><span class="o">:</span> <span class="p">..</span><span class="o">/</span><span class="nx">js</span><span class="o">/</span><span class="nx">main</span>
+</span><span class='line'><span class="p">},</span>
+</span><span class='line'><span class="nx">shim</span><span class="o">:</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">bootstrap</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;jquery&#39;</span><span class="p">]</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="o">&lt;</span><span class="err">/code&gt;&lt;/pre&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="p">});</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>待續&hellip;</p>
+]]></content>
+  </entry>
+  
+</feed>

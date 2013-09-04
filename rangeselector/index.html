@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="JasonNi">
+<meta name="created" content="2013-09-04">
+<title> Jquery Range Selector</title>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<script src="http://getbootstrap.com/dist/js/bootstrap.js"></script>
+<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+<script src="/rangeselector/jquery-rangeselector.js"></script>
+<style type="text/css">
+    .p-row {
+        margin-top: 20px;
+    }
+</style>
+<script>
+    $(function() {
+        $('#table').rangeselector();
+    });
+</script>
+
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Jquery Range Selector</h1>
+            <p>A simple, fast lightweight jQuery plugin for multi-select checkbox with shift key.</p>
+            <p><a class="btn btn-primary btn-lg" href="https://github.com/jasonni/jquery-rangeselector">Learn more</a></p>
+            <div class="row p-row">
+                <div class="col-md-6">
+                    <pre class="prettyprint">
+
+  &lt;table id="table"&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;#table&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;input id="range-select-1" type="checkbox"&gt; Row 1&lt;/td&gt;
+        ...
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+                    </pre>
+                    <pre class="prettyprint">
+
+  // prefix is optional, the default value is 'range-select'  
+
+  $('#table').rangeselector();
+  
+  or
+  
+  var prefix = 'range-select';  
+  $('#table').rangeselector(prefix);  
+
+                    </pre>
+                </div>
+                <div class="col-md-6 table-responsive">
+                    <table id="table" class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>#table</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input id="range-select-1" type="checkbox"> Row 1</td>
+                            </tr>
+                            <tr>
+                                <td><input id="range-select-2" type="checkbox"> Row 2</td>
+                            </tr>
+                            <tr>
+                                <td><input id="range-select-3" type="checkbox"> Row 3</td>
+                            </tr>
+                            <tr>
+                                <td><input id="range-select-4" type="checkbox"> Row 4</td>
+                            </tr>
+                            <tr>
+                                <td><input id="range-select-5" type="checkbox"> Row 5</td>
+                            </tr>
+                            <tr>
+                                <td><input id="range-select-6" type="checkbox"> Row 6</td>
+                            </tr>
+                            <tr>
+                                <td><input id="range-select-7" type="checkbox"> Row 7</td>
+                            </tr>
+                            <tr>
+                                <td><input id="range-select-8" type="checkbox"> Row 8</td>
+                            </tr>
+                            <tr>
+                                <td><input id="range-select-9" type="checkbox"> Row 9</td>
+                            </tr>
+                            <tr>
+                                <td><input id="range-select-10" type="checkbox"> Row 10</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

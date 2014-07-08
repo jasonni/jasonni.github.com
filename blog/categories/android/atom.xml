@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: android | F2E Big Bang !!!]]></title>
+  <link href="http://jasonni.github.io/blog/categories/android/atom.xml" rel="self"/>
+  <link href="http://jasonni.github.io/"/>
+  <updated>2014-07-08T18:01:18+08:00</updated>
+  <id>http://jasonni.github.io/</id>
+  <author>
+    <name><![CDATA[Jason Ni]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Android Concurrency: ArrayBlockingQueue]]></title>
+    <link href="http://jasonni.github.io/blog/2014/07/08/android-concurrency-arrayblockingqueue/"/>
+    <updated>2014-07-08T17:47:00+08:00</updated>
+    <id>http://jasonni.github.io/blog/2014/07/08/android-concurrency-arrayblockingqueue</id>
+    <content type="html"><![CDATA[<h1>ArrayBlockingQueue</h1>
+
+<p>Arrayblockingqueue uses reentrantlocks and<br/>
+conditionobjects to implement the<br/>
+monitor object pattern.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Android Concurrency: CountDownLatch]]></title>
+    <link href="http://jasonni.github.io/blog/2014/07/08/android-concurrency-countdownlatch/"/>
+    <updated>2014-07-08T17:35:00+08:00</updated>
+    <id>http://jasonni.github.io/blog/2014/07/08/android-concurrency-countdownlatch</id>
+    <content type="html"><![CDATA[<h1>CountDownLatch</h1>
+
+<p>Java CountDownLatch class that<br/>
+implements barrier synchronization.</p>
+
+<p>A barrier is a synchronization technique<br/>
+that halts the<br/>
+progress of one or more threads at a<br/>
+particular point.</p>
+
+<p>Barriers are commonly used in several ways.</p>
+
+<p>One way is to defer the start of<br/>
+current computations until after an object<br/>
+has been initialized.</p>
+
+<p>Another common use is to allow one thread<br/>
+to wait until a group<br/>
+of other concurrent threads are done with<br/>
+their processing before it can continue.</p>
+]]></content>
+  </entry>
+  
+</feed>

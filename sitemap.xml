@@ -43,11 +43,21 @@
         <lastmod>2014-07-02T12:55:33+08:00</lastmod>
     </url>
     <url>
+        <loc>http://jasonni.github.io/blog/2014/07/08/android-concurrency-countdownlatch/</loc>
+        <lastmod>2014-07-08T18:01:09+08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://jasonni.github.io/blog/2014/07/08/android-concurrency-arrayblockingqueue/
+        </loc>
+        <lastmod>2014-07-08T18:01:09+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://jasonni.github.io/blog/archives/</loc>
-        <lastmod>2014-07-02T12:56:41+08:00</lastmod>
+        <lastmod>2014-07-08T18:01:09+08:00</lastmod>
     </url>
     <url>
         <loc>http://jasonni.github.io/</loc>
-        <lastmod>2014-07-02T12:56:41+08:00</lastmod>
+        <lastmod>2014-07-08T18:01:09+08:00</lastmod>
     </url>
 </urlset>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""Android Concurrency: ArrayBlockingQueue""
+title: "Android Concurrency: ArrayBlockingQueue"
 date: 2014-07-08 17:47
 comments: true
 categories: [android, concurrency]

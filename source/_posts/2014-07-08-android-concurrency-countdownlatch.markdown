@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""Android Concurrency: CountDownLatch""
+title: "Android Concurrency: CountDownLatch"
 date: 2014-07-08 17:35
 comments: true
 categories: [android, concurrency] 

@@ -82,15 +82,15 @@
     <ul class="recent_posts">
       
         <li>
+          <a href="/blog/2014/07/08/software-quality-attribute/">Software Quality Attribute</a>
+        </li>
+      
+        <li>
+          <a href="/blog/2014/07/08/android-concurrency-reentrantlock/">Android Concurrency: ReentrantLock</a>
+        </li>
+      
+        <li>
           <a href="/blog/2014/07/08/android-concurrency-arrayblockingqueue/">Android Concurrency: ArrayBlockingQueue</a>
-        </li>
-      
-        <li>
-          <a href="/blog/2014/07/08/android-concurrency-countdownlatch/">Android Concurrency: CountDownLatch</a>
-        </li>
-      
-        <li>
-          <a href="/blog/2014/07/01/52-weeks-of-ux-the-first-rule-of-ux/">52 Weeks of UX: The First Rule of UX</a>
         </li>
       
     </ul>
@@ -126,6 +126,175 @@
   <div class="container">
     <div class="row" id="post-container">
     
+    
+    
+      <article class="span12">
+        <div class="article-format">
+
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/05/26/dive-into-label-tag/">Div Into Label Tag</a></h1>
+    
+    
+      <p class="meta">
+        
+  
+
+
+  
+    <span class="byline author vcard">by <a href="https://plus.google.com/johnnyni1231?rel=author"><span class="fn">Jason Ni</span></a></span>
+  
+
+ - 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-26T19:48:00+08:00" pubdate data-updated="true">May 26<span>th</span>, 2013</time> - 
+        
+
+posted in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/html/'>HTML</a>
+  
+</span>
+
+
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>之前看到 <strong>label</strong> 時<br/>
+被它的 <strong>for</strong> 屬性驚到原來可以<a href="/blog/2013/05/11/html-and-css-todo-list/">這樣用</a>  <br/>
+直到和 <a href="http://josephj.com/" title="阿嗚">Joseph大神</a> pair programming  <br/>
+才發現到它真正的迷人之處<br/>
+也解決了許久許久之前常聽到有使用者反應<br/>
+<strong>為什麼你們系統的 radio 和 checkbox 這麼小</strong><br/>
+我都點不到 XD<br/>
+那時得到的解答是：本來預設就是這樣！！<br/>
+不過<br/>
+今天終於得到真正的答案<br/>
+就是搭配 <strong>label</strong> 這屬性</p>
+
+<p>Demo 開始</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/05/26/dive-into-label-tag/">Read on &rarr;</a>
+    </footer>
+  
+
+
+</div>
+
+      </article>
+    
+    
+      <article class="span12">
+        <div class="article-format">
+
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/05/11/html-and-css-todo-list/">HTML &amp; CSS Todo List</a></h1>
+    
+    
+      <p class="meta">
+        
+  
+
+
+  
+    <span class="byline author vcard">by <a href="https://plus.google.com/johnnyni1231?rel=author"><span class="fn">Jason Ni</span></a></span>
+  
+
+ - 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-11T14:18:00+08:00" pubdate data-updated="true">May 11<span>th</span>, 2013</time> - 
+        
+
+posted in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/css/'>CSS</a>, <a class='category' href='/blog/categories/html/'>HTML,</a>
+  
+</span>
+
+
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>將<a href="http://miiicasa.com/" title="miiiCasa">miiiCasa</a>目前學到的新手訓練<br/>
+實作了一張 <a href="/prototype/html_css_todolist.html" title="Demo">HTML CSS Todo List</a> 靜態網頁</p>
+
+<p>之所以想做 Todo List 的原因<br/>
+是因為網路上操作其實大多脫離不了<em>新刪查改</em></p>
+
+<p>所以假如在學習一個新的Framework時<br/>
+可以搞懂<strong>新刪查改</strong>的使用方式<br/>
+大概也掌握了6, 7成</p>
+
+<p>因此做了一個 Todo List<br/>
+希望每學到一個新的東西時<br/>
+就用 Todo List 實作一下 XD</p>
+
+<hr />
+
+<h4><a href="http://www.kvzhuang.net/" title="小莊">小莊大師</a>魔鬼細節的指導</h4>
+
+<h4><em>input: placeholder</em> 以及 <em>label: for</em> 的優雅之處</h4>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;div&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;todo&quot;</span><span class="nt">&gt;</span>代辦事項<span class="nt">&lt;/label&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">id=</span><span class="s">&quot;todo&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;enter something todo&quot;</span> <span class="nt">&gt;</span>
+</span><span class='line'><span class="nt">&lt;/div&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/05/11/html-and-css-todo-list/">Read on &rarr;</a>
+    </footer>
+  
+
+
+</div>
+
+      </article>
     
     
       <article class="span12">
@@ -339,6 +508,14 @@ posted in
     <ul class="recent_posts">
       
         <li>
+          <a href="/blog/2014/07/08/software-quality-attribute/">Software Quality Attribute</a>
+        </li>
+      
+        <li>
+          <a href="/blog/2014/07/08/android-concurrency-reentrantlock/">Android Concurrency: ReentrantLock</a>
+        </li>
+      
+        <li>
           <a href="/blog/2014/07/08/android-concurrency-arrayblockingqueue/">Android Concurrency: ArrayBlockingQueue</a>
         </li>
       
@@ -348,14 +525,6 @@ posted in
       
         <li>
           <a href="/blog/2014/07/01/52-weeks-of-ux-the-first-rule-of-ux/">52 Weeks of UX: The First Rule of UX</a>
-        </li>
-      
-        <li>
-          <a href="/blog/2013/09/10/js-text-range-selector/">JS Text Range selector</a>
-        </li>
-      
-        <li>
-          <a href="/blog/2013/09/10/jquery-range-selector-with-shiftkey/">JQuery Range Selector With ShiftKey</a>
         </li>
       
     </ul>

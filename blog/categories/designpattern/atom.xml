@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: DesignPattern | F2E Big Bang !!!]]></title>
+  <link href="http://jasonni.github.io/blog/categories/designpattern/atom.xml" rel="self"/>
+  <link href="http://jasonni.github.io/"/>
+  <updated>2014-07-08T18:48:49+08:00</updated>
+  <id>http://jasonni.github.io/</id>
+  <author>
+    <name><![CDATA[Jason Ni]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Software Quality Attribute]]></title>
+    <link href="http://jasonni.github.io/blog/2014/07/08/software-quality-attribute/"/>
+    <updated>2014-07-08T18:44:00+08:00</updated>
+    <id>http://jasonni.github.io/blog/2014/07/08/software-quality-attribute</id>
+    <content type="html"><![CDATA[<h1>Software Quality Attribute</h1>
+
+<ul>
+<li>Reusable &ndash; Templete pattern</li>
+<li>Portability &ndash; Strategy pattern</li>
+<li>Flexibility &ndash; Factory Method pattern</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

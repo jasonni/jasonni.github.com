@@ -4,7 +4,7 @@
   <title><![CDATA[F2E Big Bang !!!]]></title>
   <link href="http://jasonni.github.io/atom.xml" rel="self"/>
   <link href="http://jasonni.github.io/"/>
-  <updated>2014-07-08T18:01:18+08:00</updated>
+  <updated>2014-07-08T18:48:49+08:00</updated>
   <id>http://jasonni.github.io/</id>
   <author>
     <name><![CDATA[Jason Ni]]></name>
@@ -12,6 +12,50 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Software Quality Attribute]]></title>
+    <link href="http://jasonni.github.io/blog/2014/07/08/software-quality-attribute/"/>
+    <updated>2014-07-08T18:44:00+08:00</updated>
+    <id>http://jasonni.github.io/blog/2014/07/08/software-quality-attribute</id>
+    <content type="html"><![CDATA[<h1>Software Quality Attribute</h1>
+
+<ul>
+<li>Reusable &ndash; Templete pattern</li>
+<li>Portability &ndash; Strategy pattern</li>
+<li>Flexibility &ndash; Factory Method pattern</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Android Concurrency: ReentrantLock]]></title>
+    <link href="http://jasonni.github.io/blog/2014/07/08/android-concurrency-reentrantlock/"/>
+    <updated>2014-07-08T18:25:00+08:00</updated>
+    <id>http://jasonni.github.io/blog/2014/07/08/android-concurrency-reentrantlock</id>
+    <content type="html"><![CDATA[<h1>ReentrantLock</h1>
+
+<p>ReentrantLock uses the Ganga four bridge pattern</p>
+
+<p>it provides mutual exclusion and implements the lock interface</p>
+
+<ol>
+<li><p>First, it inherits the bulk of its functionality from<br/>
+the AbstractQueuedSynchronizer class which<br/>
+provides a framework for implementing<br/>
+blocking locks and synchronizers that<br/>
+rely on First In, First Out or F.I.F.O.<br/>
+wait queues.</p></li>
+<li><p>Second, it implements several lock<br/>
+acquisition models via its common<br/>
+interface.</p></li>
+<li><p>The key methods in ReentrantLock are lock,<br/>
+lock interruptibly, and unlock.</p></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Android Concurrency: ArrayBlockingQueue]]></title>

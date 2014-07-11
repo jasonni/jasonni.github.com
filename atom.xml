@@ -4,7 +4,7 @@
   <title><![CDATA[F2E Big Bang !!!]]></title>
   <link href="http://jasonni.github.io/atom.xml" rel="self"/>
   <link href="http://jasonni.github.io/"/>
-  <updated>2014-07-08T18:48:49+08:00</updated>
+  <updated>2014-07-11T14:27:40+08:00</updated>
   <id>http://jasonni.github.io/</id>
   <author>
     <name><![CDATA[Jason Ni]]></name>
@@ -12,6 +12,53 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[52 Weeks of UX: Utility vs. Beauty]]></title>
+    <link href="http://jasonni.github.io/blog/2014/07/11/52-weeks-of-ux-utility-vs-beauty/"/>
+    <updated>2014-07-11T13:09:00+08:00</updated>
+    <id>http://jasonni.github.io/blog/2014/07/11/52-weeks-of-ux-utility-vs-beauty</id>
+    <content type="html"><![CDATA[<h1>UTILITY VS. BEAUTY</h1>
+
+<h2>文章概要</h2>
+
+<p>此篇文章大概在描述<br/>
+一個好的設計<br/>
+要兼具實用和美觀</p>
+
+<p>在做設計的時候<br/>
+常常看起來美觀卻不實用<br/>
+或是實用卻不美觀</p>
+
+<p>甚至是使用浮華和華麗手法（現在的流行趨勢）<br/>
+去隱藏設計的問題<br/>
+導致太容易專注在 &ldquo;make it pretty&#8221;<br/>
+卻沒有去考慮到這項設計的實用性</p>
+
+<p>又或者<br/>
+設計出一項非常實用的產品<br/>
+可是看起來卻是枯燥又乏味</p>
+
+<p>最優雅的設計是調和約束和精確度
+並同時兼具實用和美觀</p>
+
+<h2>心得</h2>
+
+<p>在開發中<br/>
+時常看到注重在實用性<br/>
+例如提升產品穩定度<br/>
+而忽略了美觀</p>
+
+<p>不過很現實的<br/>
+人是視覺動物<br/>
+只要在產品中稍微加入了一點點美的元素<br/>
+通常使用者都是會有反應的</p>
+
+<p>所以一項好的設計<br/>
+實用和美觀<br/>
+都是不可或缺的</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Software Quality Attribute]]></title>

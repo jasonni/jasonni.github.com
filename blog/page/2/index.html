@@ -82,15 +82,15 @@
     <ul class="recent_posts">
       
         <li>
+          <a href="/blog/2014/07/11/52-weeks-of-ux-utility-vs-beauty/">52 Weeks of UX: Utility vs. Beauty</a>
+        </li>
+      
+        <li>
           <a href="/blog/2014/07/08/software-quality-attribute/">Software Quality Attribute</a>
         </li>
       
         <li>
           <a href="/blog/2014/07/08/android-concurrency-reentrantlock/">Android Concurrency: ReentrantLock</a>
-        </li>
-      
-        <li>
-          <a href="/blog/2014/07/08/android-concurrency-arrayblockingqueue/">Android Concurrency: ArrayBlockingQueue</a>
         </li>
       
     </ul>
@@ -126,6 +126,83 @@
   <div class="container">
     <div class="row" id="post-container">
     
+    
+    
+      <article class="span12">
+        <div class="article-format">
+
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/01/jquery-validation-with-bootstrap-style/">Jquery Validation With Bootstrap Style</a></h1>
+    
+    
+      <p class="meta">
+        
+  
+
+
+  
+    <span class="byline author vcard">by <a href="https://plus.google.com/johnnyni1231?rel=author"><span class="fn">Jason Ni</span></a></span>
+  
+
+ - 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-01T13:42:00+08:00" pubdate data-updated="true">Jun 1<span>st</span>, 2013</time> - 
+        
+
+posted in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/css/'>CSS,</a>, <a class='category' href='/blog/categories/html/'>HTML,</a>, <a class='category' href='/blog/categories/jquery/'>JQUERY</a>
+  
+</span>
+
+
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>最近因工作需要開始研究 <a href="http://jqueryvalidation.org/" title="jqueryvalidation">Jquery Validation</a><br/>
+不過因為我們導入 <a href="http://twitter.github.io/bootstrap/" title="bootstrap">Bootstrap</a><br/>
+因此它產生訊息提示的 style 還得覆寫一下<br/>
+才能符合我們的需求<br/>
+看一下 <a href="/prototype/jq_validate.html" title="Demo">Demo</a></p>
+
+<p>在實作上<br/>
+各欄位驗證的屬性設定可以參考<a href="http://jqueryvalidation.org/" title="jqueryvalidation">Jquery Validation</a> Document<br/>
+除了 html class 要符合 <a href="http://twitter.github.io/bootstrap/" title="bootstrap">Bootstrap</a> 規範外<br/>
+其中需要注意的是<br/>
+* 若 form 裡有 radio 或 checkbox 時，一定要去覆寫 errorPlacement，
+否則驗證訊息會出現在錯誤的位置
+* 驗證欄位可以寫在 html class 或 js，若寫在 js 不能寫 form 裡沒有的欄位，否則 bug 會找不到噢 XD</p>
+
+<p>再來就是要去覆寫 js 的 function 來達到我們的需求</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/06/01/jquery-validation-with-bootstrap-style/">Read on &rarr;</a>
+    </footer>
+  
+
+
+</div>
+
+      </article>
     
     
       <article class="span12">
@@ -508,6 +585,10 @@ posted in
     <ul class="recent_posts">
       
         <li>
+          <a href="/blog/2014/07/11/52-weeks-of-ux-utility-vs-beauty/">52 Weeks of UX: Utility vs. Beauty</a>
+        </li>
+      
+        <li>
           <a href="/blog/2014/07/08/software-quality-attribute/">Software Quality Attribute</a>
         </li>
       
@@ -521,10 +602,6 @@ posted in
       
         <li>
           <a href="/blog/2014/07/08/android-concurrency-countdownlatch/">Android Concurrency: CountDownLatch</a>
-        </li>
-      
-        <li>
-          <a href="/blog/2014/07/01/52-weeks-of-ux-the-first-rule-of-ux/">52 Weeks of UX: The First Rule of UX</a>
         </li>
       
     </ul>

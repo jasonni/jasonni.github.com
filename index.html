@@ -82,15 +82,15 @@
     <ul class="recent_posts">
       
         <li>
+          <a href="/blog/2014/07/16/52-weeks-of-ux-changing-existing-situations/">52 Weeks of UX: Changing Existing Situations</a>
+        </li>
+      
+        <li>
           <a href="/blog/2014/07/11/52-weeks-of-ux-utility-vs-beauty/">52 Weeks of UX: Utility vs. Beauty</a>
         </li>
       
         <li>
           <a href="/blog/2014/07/08/software-quality-attribute/">Software Quality Attribute</a>
-        </li>
-      
-        <li>
-          <a href="/blog/2014/07/08/android-concurrency-reentrantlock/">Android Concurrency: ReentrantLock</a>
         </li>
       
     </ul>
@@ -126,6 +126,91 @@
   <div class="container">
     <div class="row" id="post-container">
     
+    
+    
+      <article class="span12">
+        <div class="article-format">
+
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/07/16/52-weeks-of-ux-changing-existing-situations/">52 Weeks of UX: Changing Existing Situations</a></h1>
+    
+    
+      <p class="meta">
+        
+  
+
+
+  
+    <span class="byline author vcard">by <a href="https://plus.google.com/johnnyni1231?rel=author"><span class="fn">Jason Ni</span></a></span>
+  
+
+ - 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-07-16T00:31:00+08:00" pubdate data-updated="true">Jul 16<span>th</span>, 2014</time> - 
+        
+
+posted in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/ux/'>UX</a>
+  
+</span>
+
+
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h1>CHANGING EXISTING SITUATIONS</h1>
+
+<h2>文章概要</h2>
+
+<p>本篇引述自人工智慧之父 <a href="http://digitized-life.blogspot.com/2011/08/blog-post_28.html#ixzz37YZvXbcG">Herbert Simon</a> 的一段話</p>
+
+<blockquote><blockquote><p>&ldquo;Everyone designs
+who devise courses of action aimed at changing existing situations into prefer ones. <br/>
+The intellectual activity that produces material artifacts is no different fundamentally <br/>
+from the one that prescribes remedies for a sick patient or<br/>
+the one that devises a new sales plan for a company<br/>
+or a social welfare policy for a state. <br/>
+Design, so construed, is the core of all professional training; <br/>
+it is the principal mark that distinguishes the professions from the sciences.&rdquo;</p></blockquote></blockquote>
+
+<p>每個設法改變現狀，迎合己意的人都是在做設計。<br/>
+每個生產材料人造物品的智慧活動沒有不一樣（？）<br/>
+設計是專業訓練的核心<br/>
+它是從科學去區分專業的重要標記</p>
+
+<h2>心得</h2>
+
+<p>又是一句很玄的話</p>
+
+<p>不過大概可以理解為<br/>
+當一個人對現狀不滿意或是無法滿足自己的需求<br/>
+試圖去解決和改變現狀的行為<br/>
+就是在做設計</p>
+</div>
+  
+  
+
+
+</div>
+
+      </article>
     
     
       <article class="span12">
@@ -879,106 +964,6 @@ box-sizing: border-box</p>
 
       </article>
     
-    
-      <article class="span12">
-        <div class="article-format">
-
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/06/02/requirejs-study-guideline/">RequireJS Study Guideline</a></h1>
-    
-    
-      <p class="meta">
-        
-  
-
-
-  
-    <span class="byline author vcard">by <a href="https://plus.google.com/johnnyni1231?rel=author"><span class="fn">Jason Ni</span></a></span>
-  
-
- - 
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-06-02T00:51:00+08:00" pubdate data-updated="true">Jun 2<span>nd</span>, 2013</time> - 
-        
-
-posted in
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/module/'>module</a>, <a class='category' href='/blog/categories/requirejs/'>requirejs,</a>
-  
-</span>
-
-
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3>Directory Structure</h3>
-
-<pre><code>www
-|—-index.html
-|—-js
-|   |---main.js
-|
-|--css
-|   |---main.scss
-|
-|--img
-|—–lib
-    |———jquery/jquery-min.js
-    |———requirejs/require.js
-    |———bootstrap/bootstrap.js
-</code></pre>
-
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'>
-</span><span class='line'><span class="nx">requirejs</span><span class="p">.</span><span class="nx">config</span><span class="p">({</span>
-</span><span class='line'>    <span class="nx">baseUrl</span><span class="o">:</span> <span class="nx">lib</span><span class="p">,</span>
-</span><span class='line'>    <span class="nx">paths</span><span class="o">:</span> <span class="p">{</span>
-</span><span class='line'>        <span class="nx">jquery</span><span class="o">:</span> <span class="nx">jquery</span><span class="o">/</span><span class="nx">jquery</span><span class="p">,</span>
-</span><span class='line'>        <span class="nx">main</span><span class="o">:</span> <span class="p">..</span><span class="o">/</span><span class="nx">js</span><span class="o">/</span><span class="nx">main</span>
-</span><span class='line'>    <span class="p">},</span>
-</span><span class='line'>    <span class="nx">shim</span><span class="o">:</span> <span class="p">{</span>
-</span><span class='line'>        <span class="nx">bootstrap</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;jquery&#39;</span><span class="p">]</span>
-</span><span class='line'>    <span class="p">}</span>
-</span><span class='line'><span class="p">});</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>待續&hellip;</p>
-</div>
-  
-  
-
-
-</div>
-
-      </article>
-    
     </div>
       <div class="row">
         <ul class="pager">
@@ -1036,6 +1021,10 @@ posted in
     <ul class="recent_posts">
       
         <li>
+          <a href="/blog/2014/07/16/52-weeks-of-ux-changing-existing-situations/">52 Weeks of UX: Changing Existing Situations</a>
+        </li>
+      
+        <li>
           <a href="/blog/2014/07/11/52-weeks-of-ux-utility-vs-beauty/">52 Weeks of UX: Utility vs. Beauty</a>
         </li>
       
@@ -1049,10 +1038,6 @@ posted in
       
         <li>
           <a href="/blog/2014/07/08/android-concurrency-arrayblockingqueue/">Android Concurrency: ArrayBlockingQueue</a>
-        </li>
-      
-        <li>
-          <a href="/blog/2014/07/08/android-concurrency-countdownlatch/">Android Concurrency: CountDownLatch</a>
         </li>
       
     </ul>

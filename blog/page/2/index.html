@@ -82,15 +82,15 @@
     <ul class="recent_posts">
       
         <li>
+          <a href="/blog/2014/07/21/52-weeks-of-ux-finding-flow/">52 Weeks of UX: Finding Flow</a>
+        </li>
+      
+        <li>
           <a href="/blog/2014/07/16/52-weeks-of-ux-changing-existing-situations/">52 Weeks of UX: Changing Existing Situations</a>
         </li>
       
         <li>
           <a href="/blog/2014/07/11/52-weeks-of-ux-utility-vs-beauty/">52 Weeks of UX: Utility vs. Beauty</a>
-        </li>
-      
-        <li>
-          <a href="/blog/2014/07/08/software-quality-attribute/">Software Quality Attribute</a>
         </li>
       
     </ul>
@@ -126,6 +126,82 @@
   <div class="container">
     <div class="row" id="post-container">
     
+    
+    
+      <article class="span12">
+        <div class="article-format">
+
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/08/16/amazing-box-sizing/">Amazing Box Sizing</a></h1>
+    
+    
+      <p class="meta">
+        
+  
+
+
+  
+    <span class="byline author vcard">by <a href="https://plus.google.com/johnnyni1231?rel=author"><span class="fn">Jason Ni</span></a></span>
+  
+
+ - 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-16T12:02:00+08:00" pubdate data-updated="true">Aug 16<span>th</span>, 2013</time> - 
+        
+
+posted in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/css/'>CSS</a>, <a class='category' href='/blog/categories/html/'>HTML,</a>
+  
+</span>
+
+
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>最近做了一個兩欄式 layout<br/>
+左邊欄嵌入 iframe<br/>
+右邊欄分為上和下兩塊<br/>
+在 chrome 和 ie 上都顯示的十分幸福美好<br/>
+可是到 firefox 上時<br/>
+發現 iframe 被擠下去了囧<br/>
+和 @Vivian 大神研究之後<br/>
+發現是 firefox 在計算 width 的方式和其他不同<br/>
+例如<br/>
+width 為 235px<br/>
+padding 為 25px<br/>
+padding 理當和 width 不會有關係<br/>
+可是在 firefox 裡<br/>
+width 變成 260px 了囧<br/>
+好吧&hellip;.front end 就是在解決這種問題的<br/>
+解法就是在右邊欄加入<br/>
+box-sizing: border-box</p>
+
+<p>之後一切又回歸幸福美滿</p>
+</div>
+  
+  
+
+
+</div>
+
+      </article>
     
     
       <article class="span12">
@@ -685,6 +761,10 @@ posted in
     <ul class="recent_posts">
       
         <li>
+          <a href="/blog/2014/07/21/52-weeks-of-ux-finding-flow/">52 Weeks of UX: Finding Flow</a>
+        </li>
+      
+        <li>
           <a href="/blog/2014/07/16/52-weeks-of-ux-changing-existing-situations/">52 Weeks of UX: Changing Existing Situations</a>
         </li>
       
@@ -698,10 +778,6 @@ posted in
       
         <li>
           <a href="/blog/2014/07/08/android-concurrency-reentrantlock/">Android Concurrency: ReentrantLock</a>
-        </li>
-      
-        <li>
-          <a href="/blog/2014/07/08/android-concurrency-arrayblockingqueue/">Android Concurrency: ArrayBlockingQueue</a>
         </li>
       
     </ul>

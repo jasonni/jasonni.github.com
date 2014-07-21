@@ -4,7 +4,7 @@
   <title><![CDATA[F2E Big Bang !!!]]></title>
   <link href="http://jasonni.github.io/atom.xml" rel="self"/>
   <link href="http://jasonni.github.io/"/>
-  <updated>2014-07-16T01:15:20+08:00</updated>
+  <updated>2014-07-21T17:39:21+08:00</updated>
   <id>http://jasonni.github.io/</id>
   <author>
     <name><![CDATA[Jason Ni]]></name>
@@ -12,6 +12,81 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[52 Weeks of UX: Finding Flow]]></title>
+    <link href="http://jasonni.github.io/blog/2014/07/21/52-weeks-of-ux-finding-flow/"/>
+    <updated>2014-07-21T16:11:00+08:00</updated>
+    <id>http://jasonni.github.io/blog/2014/07/21/52-weeks-of-ux-finding-flow</id>
+    <content type="html"><![CDATA[<h1>FINDING FLOW</h1>
+
+<h2>文章摘要</h2>
+
+<p>本篇文章是在描述 Optiaml Experience 狀態<br/>
+是由 <a href="http://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi">Mihaly Csikszentmihalyi</a> 這位心理學教授<br/>
+於 <a href="http://www.amazon.com/Flow-The-Psychology-Optimal-Experience/dp/0061339202">FLOW</a> 這本書中所提出<br/>
+什麼時候會進入此狀態呢？</p>
+
+<blockquote><blockquote><p>&ldquo;the mental state of operation<br/>
+in which the person is fully immersed<br/>
+in what he or she is doing by a feeling of energized focus,<br/>
+full involvement,<br/>
+and success in the process of the activity&rdquo;</p></blockquote></blockquote>
+
+<p>其實就是只當一個人非常非常專注在一件事情上<br/>
+並且事情進行的十分順利且成功的時候<br/>
+此狀態就會開啟</p>
+
+<p>此研究有趣的因素有兩個 <br/>
+1. 之前的策略心理學大部分都是在研究有問題的人<br/>
+   因此他採取相反地方法<br/>
+   希望從成功的人身上找到可以複製的希望<br/>
+2. 這研究適用於世界上所有的人，而不是只適用在愛因斯坦</p>
+
+<p>又隨著軟體和硬體變得更容易使用<br/>
+使得我們更可以專注在事情上面<br/>
+而不用去煩惱設備的操作使用<br/>
+例如 iPad 的發明<br/>
+讓我們不用去煩惱視窗的操作<br/>
+鍵盤的快捷鍵以及滑鼠使用等</p>
+
+<p>因此，當一個設計達到一個程度上的簡約時<br/>
+它和使用者的關係會發生改變<br/>
+使用者有可能開始想要拿著它去作一些不一樣的事情<br/>
+設計逐漸的消失在使用者的心中<br/>
+可是卻大大的提升了使用經驗</p>
+
+<p>最後<br/>
+找尋心中的 FLOW 吧！</p>
+
+<h2>心得</h2>
+
+<p>FLOW 真是很玄的一個理論<br/>
+有人稱他為 心流經驗 OR 流暢經驗 OR 神馳理論（囧）<br/>
+台大心理系教授余德慧<br/>
+在Csikszentmihalyi的Flow: The psychology of optimal experience中文版序中指出</p>
+
+<blockquote><blockquote><p>心流出現時<br/>
+會感受到行動與意識之間融合無間<br/>
+整個意識的注意力集中在有限的視域<br/>
+而行動的準確與立即的回饋有不斷互流的現象。</p></blockquote></blockquote>
+
+<p>(這是不是EVA中的同步率啊XD)</p>
+
+<p>生活上所有的事情<br/>
+都有機會產生 FLOW <br/>
+關鍵在於自己願不願意去投入的意志<br/>
+當然<br/>
+假如今天作的事情是自己有興趣且又是自己最拿手的<br/>
+例如打籃球電慘對手<br/>
+心流的產生想必更簡單<br/>
+而設計在這邊扮演的角色<br/>
+我想就是越簡單意用<br/>
+意用到使用者根本就忘記了設計的存在<br/>
+使他們可以完全沉浸在自己的創作世界裡面<br/>
+那我想這就是一個最棒的設計了！</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[52 Weeks of UX: Changing Existing Situations]]></title>

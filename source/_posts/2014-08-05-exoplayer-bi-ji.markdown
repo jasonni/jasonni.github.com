@@ -3,7 +3,7 @@ layout: post
 title: "ExoPlayer 筆記"
 date: 2014-08-05 15:21
 comments: true
-categories: io2014, android, exoplayer, mediaplayer
+categories: io2014,android,exoplayer,mediaplayer
 ---
 
 ExoPlayer
@@ -22,7 +22,7 @@ ExoPlayer
 and
 [MediaCodec](http://developer.android.com/reference/android/media/MediaCodec.html)
 
-![exoplayer-framework](/images/exoplayer_framework.png)
+![exoplayer-framework](/images/exo_framework.png)
 ![exoplayer-model](http://developer.android.com/images/exoplayer/object-model.png)
 
 

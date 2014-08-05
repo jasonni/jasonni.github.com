@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: mediaplayer | F2E Big Bang !!!]]></title>
-  <link href="http://jasonni.github.io/blog/categories/mediaplayer/atom.xml" rel="self"/>
+  <title><![CDATA[Category: io2014,android,exoplayer,mediaplayer | F2E Big Bang !!!]]></title>
+  <link href="http://jasonni.github.io/blog/categories/io2014-android-exoplayer-mediaplayer/atom.xml" rel="self"/>
   <link href="http://jasonni.github.io/"/>
-  <updated>2014-08-05T16:07:38+08:00</updated>
+  <updated>2014-08-05T16:11:17+08:00</updated>
   <id>http://jasonni.github.io/</id>
   <author>
     <name><![CDATA[Jason Ni]]></name>
@@ -38,7 +38,7 @@
 and
 <a href="http://developer.android.com/reference/android/media/MediaCodec.html">MediaCodec</a></p>
 
-<p><img src="/images/exoplayer_framework.png" alt="exoplayer-framework" />
+<p><img src="/images/exo_framework.png" alt="exoplayer-framework" />
 <img src="http://developer.android.com/images/exoplayer/object-model.png" alt="exoplayer-model" /></p>
 
 <h3>支援 Adaptive Streaming</h3>

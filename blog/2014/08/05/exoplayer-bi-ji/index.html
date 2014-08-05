@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>52 Weeks of UX: Changing Existing Situations - F2E Big Bang !!!</title>
+  <title>ExoPlayer 筆記 - F2E Big Bang !!!</title>
   <meta name="author" content="Jason Ni">
   <link rel="author" href="humans.txt">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -13,8 +13,9 @@
   
     
   
-  <meta name="description" content="CHANGING EXISTING SITUATIONS 文章概要 本篇引述自人工智慧之父 Herbert Simon 的一段話 &ldquo;Everyone designs
-who devise courses of action aimed at changing existing &hellip;">
+  <meta name="description" content="ExoPlayer MeidaPlayer vs. ExoPlayer Youtube and Play Movie use.
+ExoPlayer gives a lot more control.
+ExoPlayer can easily update. 核心 MediaExtractor &hellip;">
   
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -22,21 +23,22 @@ who devise courses of action aimed at changing existing &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jasonni.github.io/blog/2014/07/16/52-weeks-of-ux-changing-existing-situations/">
+  <link rel="canonical" href="http://jasonni.github.io/blog/2014/08/05/exoplayer-bi-ji/">
   <link href="/favicon.png" rel="icon">
   <link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="F2E Big Bang !!!" type="application/atom+xml">
   <meta name="og:type" content="website" />
   <meta name="og:site_name" content="F2E Big Bang !!!" />
-  <meta name="og:title" content="52 Weeks of UX: Changing Existing Situations" />
-  <meta name="og:description" content="CHANGING EXISTING SITUATIONS 文章概要 本篇引述自人工智慧之父 Herbert Simon 的一段話 &ldquo;Everyone designs
-who devise courses of action aimed at changing existing &hellip;" />
-  <meta name="og:url" content="http://jasonni.github.io/blog/2014/07/16/52-weeks-of-ux-changing-existing-situations/"/>
-  <meta name="url" content="http://jasonni.github.io/blog/2014/07/16/52-weeks-of-ux-changing-existing-situations/">
+  <meta name="og:title" content="ExoPlayer 筆記" />
+  <meta name="og:description" content="ExoPlayer MeidaPlayer vs. ExoPlayer Youtube and Play Movie use.
+ExoPlayer gives a lot more control.
+ExoPlayer can easily update. 核心 MediaExtractor &hellip;" />
+  <meta name="og:url" content="http://jasonni.github.io/blog/2014/08/05/exoplayer-bi-ji/"/>
+  <meta name="url" content="http://jasonni.github.io/blog/2014/08/05/exoplayer-bi-ji/">
   
-  <meta name="subject" content="UX"/>
-  <meta name="category" content="UX"/>
+  <meta name="subject" content="android,exoplayer,io2014,mediaplayer"/>
+  <meta name="category" content="android,exoplayer,io2014,mediaplayer"/>
   
   <meta name="distribution" content="global">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
@@ -78,7 +80,7 @@ who devise courses of action aimed at changing existing &hellip;" />
 
   <header>
     
-      <h1 class="entry-title">52 Weeks of UX: Changing Existing Situations</h1>
+      <h1 class="entry-title">ExoPlayer 筆記</h1>
     
     
       <p class="meta">
@@ -103,13 +105,13 @@ who devise courses of action aimed at changing existing &hellip;" />
   
 
 
-<time datetime="2014-07-16T00:31:00+08:00" pubdate data-updated="true">Jul 16<span>th</span>, 2014</time> - 
+<time datetime="2014-08-05T15:21:00+08:00" pubdate data-updated="true">Aug 5<span>th</span>, 2014</time> - 
         
 
 posted in
 <span class="categories">
   
-    <a class='category' href='/blog/categories/ux/'>UX</a>
+    <a class='category' href='/blog/categories/android/'>android,</a>, <a class='category' href='/blog/categories/exoplayer/'>exoplayer,</a>, <a class='category' href='/blog/categories/io2014/'>io2014,</a>, <a class='category' href='/blog/categories/mediaplayer/'>mediaplayer</a>
   
 </span>
 
@@ -120,34 +122,110 @@ posted in
   </header>
 
 
-  <div class="entry-content"><h1>CHANGING EXISTING SITUATIONS</h1>
+  <div class="entry-content"><p>ExoPlayer
+<img src="/images/exo_open_url.png" alt="exoplayer-url" /></p>
 
-<h2>文章概要</h2>
+<h3>MeidaPlayer vs. ExoPlayer</h3>
 
-<p>本篇引述自人工智慧之父 <a href="http://digitized-life.blogspot.com/2011/08/blog-post_28.html#ixzz37YZvXbcG">Herbert Simon</a> 的一段話</p>
+<ul>
+<li>Youtube and Play Movie use.</li>
+<li>ExoPlayer gives a lot more control.</li>
+<li>ExoPlayer can easily update.</li>
+</ul>
 
-<blockquote><blockquote><p>&ldquo;Everyone designs
-who devise courses of action aimed at changing existing situations into prefer ones. <br/>
-The intellectual activity that produces material artifacts is no different fundamentally <br/>
-from the one that prescribes remedies for a sick patient or<br/>
-the one that devises a new sales plan for a company<br/>
-or a social welfare policy for a state. <br/>
-Design, so construed, is the core of all professional training; <br/>
-it is the principal mark that distinguishes the professions from the sciences.&rdquo;</p></blockquote></blockquote>
 
-<p>每個設法改變現狀，迎合己意的人都是在做設計。<br/>
-每個生產材料人造物品的智慧活動沒有不一樣（？）<br/>
-設計是專業訓練的核心<br/>
-它是從科學去區分專業的重要標記</p>
+<p><img src="/images/exo_vs_mplayer.png" alt="exo vs mediaplayer" /></p>
 
-<h2>心得</h2>
+<h3>核心</h3>
 
-<p>又是一句很玄的話</p>
+<p><a href="http://developer.android.com/reference/android/media/MediaExtractor.html">MediaExtractor</a>
+and
+<a href="http://developer.android.com/reference/android/media/MediaCodec.html">MediaCodec</a></p>
 
-<p>不過大概可以理解為<br/>
-當一個人對現狀不滿意或是無法滿足自己的需求<br/>
-試圖去解決和改變現狀的行為<br/>
-就是在做設計</p>
+<p><img src="/images/exoplayer_framework.png" alt="exoplayer-framework" />
+<img src="http://developer.android.com/images/exoplayer/object-model.png" alt="exoplayer-model" /></p>
+
+<h3>支援 Adaptive Streaming</h3>
+
+<p>允許在播放的期間，依照網路速度同整影片的品質</p>
+
+<ul>
+<li>Dynamic adaptive streaming over HTTP (DASH)</li>
+<li>SmoothStreaming</li>
+<li>Persistent caching</li>
+</ul>
+
+
+<h3>提供</h3>
+
+<h4>TrackRenderer</h4>
+
+<p>An abstract class processes a component of media for playback, such as video, audio or text.</p>
+
+<p>The ExoPlayer library provides these implements class:</p>
+
+<ul>
+<li><strong>MediaCodecVideoTrackRenderer</strong> as the default implementations rendering video</li>
+<li><strong>MediaCodecAudioTrackRenderer</strong> for audio.</li>
+<li><strong>TextTrackRenderer</strong> for text.</li>
+</ul>
+
+
+<h4>SampleSource</h4>
+
+<p>TrackRenderer required <strong>SampleSource</strong> (interface).
+It provides <em>format information</em> and <em>media samples to be rendered</em></p>
+
+<p>The ExoPlayer library provides these implements class:</p>
+
+<ul>
+<li><strong>FrameworkSampleSource</strong> uses MediaExtractor to request, buffer and extract the media samples.<img src="http://developer.android.com/images/exoplayer/frameworksamplesource.png" alt="FrameworkSampleSource" /></li>
+</ul>
+
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="n">FrameworkSampleSource</span> <span class="n">sampleSource</span> <span class="o">=</span> <span class="k">new</span> <span class="n">FrameworkSampleSource</span><span class="o">(</span><span class="n">activity</span><span class="o">,</span> <span class="n">uri</span><span class="o">,</span> <span class="kc">null</span><span class="o">,</span> <span class="mi">2</span><span class="o">);</span>
+</span><span class='line'><span class="n">MediaCodecVideoTrackRenderer</span> <span class="n">videoRenderer</span> <span class="o">=</span> <span class="k">new</span> <span class="n">MediaCodecVideoTrackRenderer</span><span class="o">(</span><span class="n">sampleSource</span><span class="o">,</span> <span class="kc">null</span><span class="o">,</span> <span class="kc">true</span><span class="o">,</span> <span class="n">MediaCodec</span><span class="o">.</span><span class="na">VIDEO_SCALING_MODE_SCALE_TO_FIT</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="n">mainHandler</span><span class="o">,</span> <span class="n">playerActivity</span><span class="o">,</span> <span class="mi">50</span><span class="o">);</span>
+</span><span class='line'><span class="n">MediaCodecAudioTrackRenderer</span> <span class="n">audioRenderer</span> <span class="o">=</span> <span class="k">new</span> <span class="n">MediaCodecAudioTrackRenderer</span><span class="o">(</span><span class="n">sampleSource</span><span class="o">,</span> <span class="kc">null</span><span class="o">,</span> <span class="kc">true</span><span class="o">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<blockquote><p>Note that in the example, video and audio are muxed, meaning they are streamed together from a single URI.
+<em>It is also possible to play demuxed media, where video and audio are streamed separately from different URIs.</em>
+This functionality can be achieved by having two FrameworkSampleSource instances instead of one.</p></blockquote>
+
+<ul>
+<li><strong>ChunkSampleSource</strong> provides adaptive playback using DASH or SmoothStreaming, and implements networking, buffering and media extraction. It requires:
+
+<ul>
+<li>A <strong>ChunkSource</strong> object, implementations require a <strong>FormatEvaluator</strong> and a <strong>DataSource</strong>
+
+<ul>
+<li>The FormatEvaluator objects select from the available formats before each chunk is loaded.</li>
+<li>The DataSource objects are responsible for actually loading the data.</li>
+</ul>
+</li>
+<li>A LoadControl object that controls the chunk buffering policy. <img src="http://developer.android.com/images/exoplayer/adaptive-streaming.png" alt="ChunkSampleSource" /></li>
+</ul>
+</li>
+</ul>
+
+
+<h4>Media presentation description parser</h4>
+
+<p><strong>MediaPresentationDescriptionParser</strong> class to obtain <strong>Representation</strong> objects from media presentation description(MPD) files.</p>
+
+<h3>支援格式</h3>
+
+<p>See <a href="http://developer.android.com/guide/appendix/media-formats.html">Supported Media Formats</a> for details.</p>
+
+<h3>參考資料</h3>
+
+<p><a href="http://developer.android.com/guide/topics/media/exoplayer.html">ExoPlayer API Guide</a></p>
+
+<p><a href="http://developer.android.com/guide/topics/media/exoplayer.htm://www.youtube.com/watch?v=92fgcUNCHic&amp;feature=youtube_gdata_player">Google I/O 2014 &ndash; Building great multi-media experiences on Android</a></p>
 </div>
 
 
@@ -174,13 +252,13 @@ it is the principal mark that distinguishes the professions from the sciences.&r
   
 
 
-<time datetime="2014-07-16T00:31:00+08:00" pubdate data-updated="true">Jul 16<span>th</span>, 2014</time>
+<time datetime="2014-08-05T15:21:00+08:00" pubdate data-updated="true">Aug 5<span>th</span>, 2014</time>
       
 
 posted in
 <span class="categories">
   
-    <a class='category' href='/blog/categories/ux/'>UX</a>
+    <a class='category' href='/blog/categories/android/'>android,</a>, <a class='category' href='/blog/categories/exoplayer/'>exoplayer,</a>, <a class='category' href='/blog/categories/io2014/'>io2014,</a>, <a class='category' href='/blog/categories/mediaplayer/'>mediaplayer</a>
   
 </span>
 
@@ -189,7 +267,7 @@ posted in
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jasonni.github.io/blog/2014/07/16/52-weeks-of-ux-changing-existing-situations/" data-via="jasonni1231" data-counturl="http://jasonni.github.io/blog/2014/07/16/52-weeks-of-ux-changing-existing-situations/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jasonni.github.io/blog/2014/08/05/exoplayer-bi-ji/" data-via="jasonni1231" data-counturl="http://jasonni.github.io/blog/2014/08/05/exoplayer-bi-ji/" >Tweet</a>
   
   
   
@@ -199,10 +277,8 @@ posted in
 
     
     
-      <a class="pull-left" href="/blog/2014/07/11/52-weeks-of-ux-utility-vs-beauty/" title="Previous Post: 52 Weeks of UX: Utility vs. Beauty">&laquo; 52 Weeks of UX: Utility vs. Beauty</a>
+      <a class="pull-left" href="/blog/2014/07/21/52-weeks-of-ux-finding-flow/" title="Previous Post: 52 Weeks of UX: Finding Flow">&laquo; 52 Weeks of UX: Finding Flow</a>
     
-    
-      <a class="pull-right" href="/blog/2014/07/21/52-weeks-of-ux-finding-flow/" title="Next Post: 52 Weeks of UX: Finding Flow">52 Weeks of UX: Finding Flow &raquo;</a>
     
   </footer>
 
@@ -351,8 +427,8 @@ posted in
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://jasonni.github.io/blog/2014/07/16/52-weeks-of-ux-changing-existing-situations/';
-        var disqus_url = 'http://jasonni.github.io/blog/2014/07/16/52-weeks-of-ux-changing-existing-situations/';
+        var disqus_identifier = 'http://jasonni.github.io/blog/2014/08/05/exoplayer-bi-ji/';
+        var disqus_url = 'http://jasonni.github.io/blog/2014/08/05/exoplayer-bi-ji/';
         var disqus_script = 'embed.js';
       
     (function () {
